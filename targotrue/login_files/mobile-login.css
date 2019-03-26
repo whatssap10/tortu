@@ -1,0 +1,183 @@
+@media screen and (max-width: 768px) {
+  #root {
+    min-width: 0px;
+  }
+  div.menuh,
+  div#ei_tpl_ident,
+  div#e_search {
+    display: none;
+  }
+  div#e_logo {
+    padding-left: 10px !important;
+  }
+  h2.margin-bottom-small {
+    margin-bottom: 20px !important;
+    font-size: 24px;
+  }
+  .tab-login-v2 .login-form-box .v-line {
+    position: relative;
+    left: auto;
+    top: auto;
+    bottom: auto;
+    height: 1px;
+    width: 100%;
+    margin: 50px 0 -20px 0;
+    font-size: 14px;
+  }
+  .tab-login-v2 .login-form-box .v-line > span {
+    left: 50%;
+    top: 50%;
+    margin-left: -17px;
+    text-align: center;
+  }
+  .content h3 {
+    font-size: 20px;
+    font-family: "Frutiger Next W01 Light";
+  }
+  .pull-right,
+  .pull-left {
+    float: none;
+  }
+  .pull-left.login-form {
+    margin-left: 0;
+  }
+  .tab-login-v2 .login-function-new-user {
+    text-align: left;
+  }
+  .ym-gl {
+    float: none;
+    margin: 0;
+  }
+  .ym-gr {
+    float: none;
+    margin: 0;
+  }
+  .ym-g75,
+  .ym-g50,
+  .ym-g25 {
+    width: 100%;
+  }
+  .ym-gbox-left,
+  .ym-gbox-right {
+    padding: 0 !important;
+  }
+  .box-teaser {
+    padding: 20px;
+    height: auto;
+  }
+  .tab-login-v2 .login-grid .box-teaser {
+    height: auto !important;
+    min-height: 0;
+    font-size: 14px;
+  }
+  .tab-login-v2 .box-teaser img.float-left {
+    margin: 0px 0px 20px 0px;
+    display: block;
+    width: 100%;
+    float: none;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser {
+    padding: 0;
+    height: auto;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser h3 {
+    display: block;
+    padding: 20px;
+    margin-top: 0;
+    font-size: 20px;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser p {
+    padding: 0 20px;
+    font-size: 14px;
+  }
+  .btn-arrow {
+    font-size: 16px;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser .btn-arrow {
+    margin: 10px 20px 20px 10px;
+  }
+  .box-teaser.is-warning,
+  .box-teaser.is-notification,
+  .box-teaser.is-info {
+    padding: 20px;
+    font-size: 16px;
+  }
+  .box-teaser.is-warning img.float-left,
+  .box-teaser.is-notification img.float-left,
+  .box-teaser.is-info img.float-left {
+    width: 50px;
+    float: left;
+    margin-left: -10px;
+  }
+  .box-teaser.is-warning h2,
+  .box-teaser.is-notification h2,
+  .box-teaser.is-info h2 {
+    padding: 3px 0 0 0 !important;
+  }
+  .box-teaser.is-warning p,
+  .box-teaser.is-notification p,
+  .box-teaser.is-info p {
+    clear: both;
+  }
+
+  .tab-login-v2 .login-form {
+    margin-left: 0;
+    width: 100%;
+  }
+  .ei_appl_ident_lig input {
+    background: #dbe7f9;
+    width: 95%;
+    border: #bcbcbc 1px solid;
+    color: #002f5f;
+    outline: none;
+    padding: 3px 9px 0px 9px;
+    /*box-shadow: inset 0 1px 3px 0 rgba(0,0,0,.5), inset 0 -1px 0 0 rgba(0,0,0,.02);*/
+    border-radius: 3px;
+    display: inline-block;
+    margin: 0;
+  }
+  .ei_appl_ident_lig input:focus {
+    background-color: #ffffff;
+    border: #a5c7fe 1px solid;
+  }
+  .tab-login-v2 .ei_appl_ident_lig.login-forgot-password {
+    right: 0px;
+  }
+  div.alerte {
+    background: #ffffff url(../images/css/v3base/icoalerte.gif) no-repeat 8px
+      12px;
+    border: 1px solid #bb133e;
+    color: #bb133e;
+    padding: 20px;
+    font-size: 14px;
+  }
+  .tab-login-v2 .back-left {
+    right: 20px;
+    left: auto;
+    bottom: 190px;
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  #main #page-tabs h2,
+  #main .page-tabs h2 {
+    font-size: 20px;
+  }
+  .box-teaser {
+    padding: 10px;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser h3,
+  .box-teaser.is-warning,
+  .box-teaser.is-notification,
+  .box-teaser.is-info {
+    padding: 10px;
+  }
+  .tab-login-v2 .ym-g50 .box-teaser p {
+    padding: 0 10px;
+  }
+  .tab-login-v2 .ei_appl_ident_lig.login-forgot-password {
+    width: 38%;
+    line-height: 12px;
+    padding-top: 3px;
+  }
+}

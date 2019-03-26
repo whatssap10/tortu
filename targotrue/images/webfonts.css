@@ -1,0 +1,58 @@
+@import url(fontawesome.css);
+/**
+**/
+
+@font-face {
+	font-family: "Frutiger Next W01 Light";
+	src: url("../webfonts/ed851bde-4b1b-45ca-9fbb-9603819932cf.eot?iefix") format("eot");
+}
+
+@font-face {
+	font-family: "Frutiger Next W01 Light";
+	src: url("../webfonts/ed851bde-4b1b-45ca-9fbb-9603819932cf.eot?iefix");
+	src: url("../webfonts/35288d5e-681e-4b64-a930-438d2b2551d6.woff") format("woff"), url("../webfonts/1a22c75e-4022-43cd-a543-70ca36eb92aa.ttf") format("truetype"), url("../webfonts/2c937a24-6a4c-47b2-b3f3-28173e19b53d.svg#2c937a24-6a4c-47b2-b3f3-28173e19b53d") format("svg");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-Medium";
+	src: url("../webfonts/49a11db7-306b-4d27-9761-382ab23f6866.eot?iefix") format("eot");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-Medium";
+	src: url("../webfonts/49a11db7-306b-4d27-9761-382ab23f6866.eot?iefix");
+	src: url("../webfonts/c9372d3f-1898-4ecb-9e3f-59155488dfc9.woff") format("woff"), url("../webfonts/269e0a66-b2bb-4f96-a51b-c0ec7e43af8b.ttf") format("truetype"), url("../webfonts/3b5bdcb1-2809-47df-b46a-bdd7e3cf70a3.svg#3b5bdcb1-2809-47df-b46a-bdd7e3cf70a3") format("svg");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-Regular";
+	src: url("../webfonts/4cef6d85-d22a-4541-b469-da13751862aa.eot?iefix") format("eot");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-Regular";
+	src: url("../webfonts/4cef6d85-d22a-4541-b469-da13751862aa.eot?iefix");
+	src: url("../webfonts/d74de079-587d-4049-9cca-50ba02a536f9.woff") format("woff"), url("../webfonts/07749504-e72d-4fc9-a58d-5b853dd51fc7.ttf") format("truetype"), url("../webfonts/8178e4eb-8ce0-4c15-a701-4a102b204c0e.svg#8178e4eb-8ce0-4c15-a701-4a102b204c0e") format("svg");
+}
+
+@font-face {
+	font-family: "Arial W01 Light";
+	src: url("../webfonts/28616e7a-2315-4fd5-8756-ddcbda87ee86.eot?iefix") format("eot");
+}
+
+@font-face {
+	font-family: "Arial W01 Light";
+	src: url("../webfonts/28616e7a-2315-4fd5-8756-ddcbda87ee86.eot?iefix");
+	src: url("../webfonts/b66f1d51-4992-4982-b6ac-b30806ec0228.woff") format("woff"), url("../webfonts/500e53db-9637-42c5-8e0b-d22924e9729f.ttf") format("truetype"), url("../webfonts/cc6f05ba-f9b5-4de4-b13f-52f2e977377a.svg#cc6f05ba-f9b5-4de4-b13f-52f2e977377a") format("svg");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-MediumC";
+	src: url("../webfonts/f6b688e7-6b03-4b11-9684-0fe77192db55.eot?iefix") format("eot");
+}
+
+@font-face {
+	font-family: "FrutigerNextW01-MediumC";
+	src: url("../webfonts/f6b688e7-6b03-4b11-9684-0fe77192db55.eot?iefix");
+	src: url("../webfonts/2c44ae70-b36a-4384-ad89-c5c14b23ce0d.woff") format("woff"), url("../webfonts/f8566905-daaf-4ecc-99a7-5a70636ef0b5.ttf") format("truetype"), url("../webfonts/b79951b1-57b4-4d35-8e47-78e1a031b5c9.svg#b79951b1-57b4-4d35-8e47-78e1a031b5c9") format("svg");
+}

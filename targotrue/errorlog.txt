@@ -1,0 +1,50 @@
+* Hostname was found in DNS cache
+*   Trying 145.226.174.149...
+* Connected to www.targobank.de (145.226.174.149) port 443 (#0)
+* successfully set certificate verify locations:
+*   CAfile: none
+  CApath: /etc/ssl/certs
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES256-GCM-SHA384
+* Server certificate:
+* 	 subject: businessCategory=Private Organization; serialNumber=HRB 83351; 1.3.6.1.4.1.311.60.2.1.3=DE; 1.3.6.1.4.1.311.60.2.1.1=Düsseldorf; 1.3.6.1.4.1.311.60.2.1.2=Nordrhein-Westfalen; C=DE; ST=Nordrhein-Westfalen; L=Düsseldorf; street=Kasernenstraße 10; O=TARGOBANK AG; CN=www.targobank.de
+* 	 start date: 2018-05-17 14:46:09 GMT
+* 	 expire date: 2020-05-16 23:59:59 GMT
+* 	 issuer: C=BE; O=GlobalSign nv-sa; CN=GlobalSign Extended Validation CA - SHA256 - G3
+* 	 SSL certificate verify ok.
+> POST /de/identification/login.cgi HTTP/1.1
+Host: www.targobank.de
+Cookie: accept=yes
+Connection: keep-alive
+Pragma: no-cache
+Cache-Control: no-cache
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1; en-US; rv:1.9.0.20) Gecko/20110922 Firefox/3.6.18
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://www.targobank.de/de/identification/login.cgi
+Accept-Encoding: gzip, deflate, br
+Accept-Language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7
+Content-Length: 104
+
+* upload completely sent off: 104 out of 104 bytes
+< HTTP/1.1 302 Found
+< Date: Sun, 24 Feb 2019 23:13:49 GMT
+* Server Apache is not blacklisted
+< Server: Apache
+< Strict-Transport-Security: max-age=31536000
+< BAD-User: REGINAHEITFELD
+< Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+< Expires: Fri, 01-Jan-1971 01:00:00 GMT
+< Pragma: no-cache
+< Location: https://www.targobank.de/de/banque/paci_engine/engine.aspx
+< Access-Control-Allow-Origin: https://www.targobank.de
+< Content-Type: text/html; charset=ISO-8859-1
+* Added cookie IdSes="c981596e73e189d0929ddce382f571555fe40a4ca7ee61f513b6de0337ce00da56bbf23138b5551a78c151dcc25e0257a139a1c1f5e9c15ec950ea1861b73602f009d381ee15e92571dba7f59c10612dd34341b8787c4ffda5251cdf056a3a7f0a5af06f51cd0d05a3f6902a99d712a436455913377874c5b05824f471d25130f0b5d3ccafe121e1da2e94ff7d7bb8195662951c5bbf5b3596e68075daff73a8d39d03479277cac4a02500077c0a4e7de90b1bb10e7dd3a357638db806c1c1314cb117a9de83793ba091009a42072b7c444512a129ff30e16850144c2372401c1aa5bfc5f29387b64c6cbde02ba52d7eaeb81cafeeba8789ab70d7205a2fc71140617db6e18a0fd4051fa34cd9f6551a0c4680930e5074d4a408189eab5a98e939b3d9aa2f4558908a5cf2147a971b63fd3f0cae5644e636b46e357cf05c24b4a80a544369ea41009a2af92c3430a649a59ff8c71354daefd14e5f4d6094d6ccdc3e8e351716c52425e5d966b48f2758d31dc5cd3752526023a5e1e961d55de53bd2442fb66f838f6f1ff7396140015b7109acc8a47a06c047124f892ebf7ae9d04c63ffcf78dcb1b7f06566727ecefa683a7cf514bcd72b99f61c7e6713decda01aff2120ee1bf4ae60fd4e66e510462f493e59f49140be53dbdb786e811255bae1f458a2bff2968d24db1bb9a1cf79264eb79382e19a444806e796670cd957662bcaf4d5181c17112ec4c96039d72cf63fb68b94f8ffab1d43297c5f75f221ae2a8a7207ef01cad725335e87d6bd94" for domain www.targobank.de, path /, expire 0
+< Set-Cookie: IdSes=c981596e73e189d0929ddce382f571555fe40a4ca7ee61f513b6de0337ce00da56bbf23138b5551a78c151dcc25e0257a139a1c1f5e9c15ec950ea1861b73602f009d381ee15e92571dba7f59c10612dd34341b8787c4ffda5251cdf056a3a7f0a5af06f51cd0d05a3f6902a99d712a436455913377874c5b05824f471d25130f0b5d3ccafe121e1da2e94ff7d7bb8195662951c5bbf5b3596e68075daff73a8d39d03479277cac4a02500077c0a4e7de90b1bb10e7dd3a357638db806c1c1314cb117a9de83793ba091009a42072b7c444512a129ff30e16850144c2372401c1aa5bfc5f29387b64c6cbde02ba52d7eaeb81cafeeba8789ab70d7205a2fc71140617db6e18a0fd4051fa34cd9f6551a0c4680930e5074d4a408189eab5a98e939b3d9aa2f4558908a5cf2147a971b63fd3f0cae5644e636b46e357cf05c24b4a80a544369ea41009a2af92c3430a649a59ff8c71354daefd14e5f4d6094d6ccdc3e8e351716c52425e5d966b48f2758d31dc5cd3752526023a5e1e961d55de53bd2442fb66f838f6f1ff7396140015b7109acc8a47a06c047124f892ebf7ae9d04c63ffcf78dcb1b7f06566727ecefa683a7cf514bcd72b99f61c7e6713decda01aff2120ee1bf4ae60fd4e66e510462f493e59f49140be53dbdb786e811255bae1f458a2bff2968d24db1bb9a1cf79264eb79382e19a444806e796670cd957662bcaf4d5181c17112ec4c96039d72cf63fb68b94f8ffab1d43297c5f75f221ae2a8a7207ef01cad725335e87d6bd94; Path=/; Secure; HttpOnly
+< Vary: Accept-Encoding
+< Content-Encoding: gzip
+< Content-Length: 20
+< Keep-Alive: timeout=2, max=50
+< Connection: Keep-Alive
+< 
+* Connection #0 to host www.targobank.de left intact

@@ -1,0 +1,4131 @@
+a.inlineLink {
+        display: inline !important;
+        background: none !important;
+        text-decoration: underline !important;
+        font-weight: normal !important;
+        border: 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+}
+
+
+body {
+        background-color: #FFF;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+div.pb_content {
+        width: 750px;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+div.full-width {
+        width: 940px !important;
+}
+
+div.pb_content p, div.pb_content td {
+        margin: 0;
+        font-size: 12px;
+        line-height: 1.6em;
+}
+
+
+/*  reset pre-defined styles */
+
+body, td, th, caption, h1, h2, h3, h4, h5, h6, div, p, textarea, input, select {
+        color: #333333;
+        margin: 0;
+        padding: 0;
+}
+
+a, a:link, a:hover, a:active, a:visited {
+        text-decoration: none;
+}
+
+input {
+        padding: 0;
+}
+
+div.pb_content {
+        font-size: 12px;
+}
+
+a img {
+        border: 0;
+}
+
+/* ------------------------- */
+
+div.message_box {
+		background:no-repeat scroll left top;
+		border:1px solid #002F5F;
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+		padding-bottom:10px;
+}
+
+div.pb_mainbanner {
+        width: 750px;
+        height: 220px;
+        background-repeat: no-repeat;
+}
+
+div.pb_mainbanner h1 {
+        display: none !important;
+}
+
+div.pb_mainbanner_content {
+        position: relative;
+}
+
+div.pb_mainbanner_content ul {
+        margin: 0 0 16px 16px;
+}
+
+div.pb_mainbanner_content p.pb_footnote_grey {
+        width: 275px;
+        margin-top: 1em;
+}
+
+div.pb_mainiframe {
+        margin-top: 25px;
+        width: 750px;
+        height: 220px;
+}
+
+div.pb_mainiframe iframe {
+        width: 750px;
+        height: 220px;
+        border: 0;
+        padding:0;
+}
+
+div.pb_content p {
+        font-family: Arial;
+        font-size: 12px;
+        font-weight: normal;
+        color: #333333;
+}
+
+div.pb_mainheadline {
+        margin: 7px 0 11px 0;
+        height: 55px;
+}
+
+div.pb_mainheadline h1,
+div.pb_mainheadline h2 {
+        position: relative;
+        top: 19px;
+        font-family: Arial;
+        font-size: 2.2em;
+        color: #0C3967;
+        padding: 0;
+}
+
+h2.mainbox_headline {
+        margin-bottom: 8px;
+}
+
+div.pb_mainheadline h1 span,
+h2.mainbox_headline span,
+span.nonvishl {
+        display: none;
+}
+
+div.pb_single_content h2,
+div.pb_flap_content h2, div.pb_flap_content-active h2,
+div.pb_flap_content h3, div.pb_flap_content-active h3 {
+        padding: 0;
+        margin: 0;
+        font-size: 1em;
+}
+
+div.pb_navi_flaps_blue ul {
+        margin: 0;
+        list-style-type: none;
+}
+
+div.pb_navi_flaps_blue ul li {
+        text-align: left;
+        line-height: 22px;
+        margin-bottom: 2px;
+        float: left;
+}
+
+div.pb_navi_flaps_blue ul li a {
+        display: block;
+        margin-right: 2px;
+        height: 22px;
+        text-indent: 10px;
+        font-size: 11px;
+}
+
+div.pb_navi_flaps_blue ul li a:link, div.pb_navi_flaps_blue ul li a:hover, div.pb_navi_flaps_blue ul li a:active, div.pb_navi_flaps_blue ul li a:visited {
+        text-decoration: none;
+}
+
+div.flap-spacer { clear: both; }
+
+li.newline {}
+
+/* ** flap sizes ** */
+
+
+/*Start Update for: Baufi SIFR*/
+
+div.sifrHeader {
+        position:relative;
+        top:100px;
+        left:0px;
+        float:right;
+        margin-right:170px;
+}
+
+div.sifrHeader h2 {
+        font-size: 50px;
+        color:#de5207;
+        padding-right:35px;
+}
+
+.sIFR-flash {
+        visibility: visible !important;
+        margin: 0;
+        padding:0;
+}
+
+.sIFR-replaced {
+        visibility: visible !important;
+        margin: 0;
+        padding:0;
+}
+
+span.sIFR-alternate {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        display: block;
+        overflow: hidden;
+}
+
+.sIFR-flash + div[adblocktab=true] {
+  display: none !important;
+}
+
+.sIFR-flash div.sifrHeader h2 {
+        visibility: hidden;
+}
+/*END Update for: Baufi SIFR*/
+
+/* medium (92px) */
+div.pb_navi_flaps_blue ul.flapsize_medium li.flap a { width: 92px; background: url(../images/public/pb_navi_flaps_blue-med.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_medium li.flap-active a { width: 92px; background: url(../images/public/pb_navi_flaps_blue-med.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative ul.flapsize_medium li.flap a { width: 92px; background: url(../images/public/pb_navi_flaps_blue_alternative-med.gif) left top no-repeat #FFFFFF; color: #002F5F; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_medium li.flap-active a { width: 92px; background: url(../images/public/pb_navi_flaps_blue-med.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+
+/* medium list large flap (92px) */
+div.pb_navi_flaps_blue ul.flapsize_medium li.flap a.large { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_medium li.flap-active a.large { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative ul.flapsize_medium li.flap a.large { width: 120px; background: url(../images/public/pb_navi_flaps_blue_alternative-lrg.gif) left top no-repeat #FFFFFF; color: #002F5F; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_medium li.flap-active a.large { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+
+/* medium list large flap (92px) */
+div.pb_navi_flaps_blue ul.flapsize_large li.flap a.verylarge { width: 145px; background: url(../images/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_large li.flap-active a.verylarge { width: 145px; background: url(../images/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative ul.flapsize_large li.flap a.verylarge { width: 145px; background: url(../images/public/pb_navi_flaps_blue_alternative-vlrg.gif) left top no-repeat #FFFFFF; color: #002F5F; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_large li.flap-active a.verylarge { width: 145px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+
+/* large (120px) */
+div.pb_navi_flaps_blue ul.flapsize_large li.flap a { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #DFE1E5; color: #002F5F; }
+div.pb_navi_flaps_blue ul.flapsize_large li.flap-active a { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative ul.flapsize_large li.flap a { width: 120px; background: url(../images/public/pb_navi_flaps_blue_alternative-lrg.gif) left top no-repeat #FFFFFF; color: #0C3967; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_large li.flap-active a { width: 120px; background: url(../images/public/pb_navi_flaps_blue-lrg.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+
+/* verylarge (145px) */
+div.pb_navi_flaps_blue ul.flapsize_verylarge li.flap a { width: 145px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_verylarge li.flap-active a { width: 145px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_verylarge li.flap a { width: 145px; background: url(../images/public/pb_navi_flaps_blue_alternative-vlrg.gif) left top no-repeat #FFFFFF; color: #002F5F; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_verylarge li.flap-active a { width: 145px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative { z-index: 1000; }
+div.pb_navi_flaps_blue.alternative ul li { margin: 0px 0px 0px 0px; }
+
+div.pb_flap_content,
+div.pb_flap_content-active {
+        position: relative; top: 23px;
+        clear: both;
+}
+
+div.pb_single_content a, div.pb_single_content a:link, div.pb_single_content a:hover, div.pb_single_content a:visited, div.pb_single_content a:active,
+div.pb_flap_content a, div.pb_flap_content a:link, div.pb_flap_content a:hover, div.pb_flap_content a:visited, div.pb_flap_content a:active,
+div.pb_flap_content-active a, div.pb_flap_content-active a:link, div.pb_flap_content-active a:hover, div.pb_flap_content-active a:visited, div.pb_flap_content-active a:active
+p.pb_footnote_grey a, p.pb_footnote_grey a:link, p.pb_footnote_grey a:hover, p.pb_footnote_grey a:visited, p.pb_footnote_grey a:active
+{
+        color: #0C3967;
+        text-decoration: underline;
+}
+
+div.pb_flap_content {
+        display: none;
+}
+
+div.pb_flap_content-active {
+        display: block;
+}
+
+div.pb_flap_content h2,
+div.pb_flap_content-active h2,
+div.pb_single_content h2,
+div.pb_flap_content h3,
+div.pb_flap_content-active h3,
+div.pb_single_content h3,
+div.pb_content p.subheadline,
+div.pb_flap_content p.subheadline, div.pb_flap_content p.pb_subheadline,
+div.pb_flap_content-active p.subheadline, div.pb_flap_content-active p.pb_subheadline,
+div.pb_single_content p.subheadline, div.pb_single_content p.pb_subheadline
+{
+        /* line-height: 1em; */
+        margin-bottom: 16px;
+        font-weight: bold;
+}
+
+div.pb_flap_content p.subheadline, div.pb_flap_content p.pb_subheadline,
+div.pb_flap_content-active p.subheadline, div.pb_flap_content-active p.pb_subheadline,
+div.pb_single_content p.subheadline, div.pb_single_content p.pb_subheadline {
+        /* margin-top: 1.5em; */
+}
+
+div.pb_flap_content p, div.pb_flap_content-active p,
+div.pb_flap_content h1, div.pb_flap_content-active h1,
+div.pb_single_content p, div.pb_single_content h1
+{
+        line-height: 1.6em;
+        margin-bottom: 1em;
+        font-weight: normal;
+}
+
+div.pb_content ul {
+        margin-left: 0;
+        padding-left: 0;
+}
+
+div.pb_flap_content ul, div.pb_flap_content-active ul, div.pb_single_content ul  {
+        margin: 0 16px 1em;
+}
+
+div.pb_flap_content ul.sublist, div.pb_flap_content-active ul.sublist  {
+        margin-top: 14px;
+}
+
+div.pb_content p.mainbox_headline {
+        margin: 0;
+}
+
+.mainbox_headline a, .mainbox_headline a:link, .mainbox_headline a:hover, .mainbox_headline a:visited, .mainbox_headline a:active {
+        text-decoration: none;
+        color: inherit;
+}
+
+.mainbox_subheadline {
+        font-size: 12px;
+        /* margin: 10px 0 5px; */
+
+}
+
+.pb_content p.mainbox_image {
+        margin-top: 7px;
+        margin-bottom: 8px;
+}
+
+.pb_content p.mainbox_copy {
+        font-size: 11px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        line-height: 1.2em;
+        height: 40px;                /* max. 3 Zeilen in copy-Bereich */
+}
+
+.pb_content ul.mainbox_list {
+        list-style-type: disc;
+        margin: 4px 0 1px 16px;
+}
+
+.pb_content ul.mainbox_list li {
+        font-size: 11px;
+}
+
+.pb_content p.mainbox_moreinfo {
+        line-height: 1.3em;
+        margin-bottom: 0;
+}
+
+.pb_content p.mainbox_list_moreinfo {
+        margin-left: 16px;
+}
+
+.green, .green a, .green a:link, .green a:hover, .green a:active, .green a:visited {
+        color: #A8B400;
+}
+
+.brown, .brown a, .brown a:link, .brown a:hover, .brown a:active, .brown a:visited {
+        color: #BE9B64;
+}
+
+.orange, .orange a, .orange a:link, .orange a:hover, .orange a:active, .orange a:visited {
+        color: #E05206;
+}
+
+
+.purple, .purple a, .purple a:link, .purple a:hover, .purple a:active, .purple a:visited {
+        color: #830051;
+}
+
+.lightblue, .lightblue a, .lightblue a:link, .lightblue a:hover, .lightblue a:active, .lightblue a:visited,
+div.pb_content p.lightblue {
+        color: #0097C2;
+}
+
+.black, .black a, .black a:link, .black a:hover, .black a:active, .black a:visited {
+        color: #000;
+}
+
+/* - Image Flaps - */
+div.pb_imgflap_content {
+        background-image: url('../images/public/bg-grad-imagetabs.jpg');
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        padding: 20px;
+        height: 210px;
+        clear: left;
+        border-top: 0;
+}
+
+div.pb_imgflap_content1 {
+        background-image: url('../images/public/bg-grad-imagetabs.jpg');
+        background-position: left bottom;
+        background-repeat: repeat-x;
+        padding: 20px;
+        height: 400px;
+        clear: left;
+        border-top: 0;
+}
+
+div.pb_imgflap_content div.pb_content-left-3col div { width: 165px }
+div.pb_imgflap_content1 div.pb_content-left-3col div { width: 165px }
+
+ul#pb_imgflaps {
+        margin: 0;
+        list-style-type: none;
+        background: url('../images/public/line-imgtabs-lightblue.gif') 560px 1px;
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: 560px 1px;
+        height: 128px;
+        clear: left;
+	width:570px;
+}
+
+ul#pb_imgflaps li {
+        width: 180px;
+        height: 100px;
+        float: left;
+        margin-right: 10px;
+        font-size: 0;
+}
+
+
+/*
+- Lists -
+*/
+
+div.pb_content ul.niv,
+div.pb_content ul.niv_blue,
+div.pb_content ul.niv_blue2,
+div.pb_content ul.niv_grey,
+div.pb_content ul.niv_green,
+div.pb_content ul.niv_orange,
+div.pb_content ul.niv_purple,
+div.pb_content ul.niv_lightblue
+{
+	margin: 0 16px 1em;
+	line-height: 1.6em;
+}
+
+ul.niv_blue_flap,
+ul.niv_blue2_flap,
+ul.niv_grey_flap,
+ul.niv_green_flap,
+ul.niv_orange_flap,
+ul.niv_orange_flap,
+ul.niv_purple_flap,
+ul.niv_lightblue_flap,
+ul.niv_gold_flap {
+	line-height: 14px;
+}
+
+ul.niv_blue_flap, ul.niv_blue, ul.blue, ul.niv_blue2 {
+	list-style-image: url('../images/public/niv_blue.gif');
+}
+
+ul.niv_blue2 li {
+	margin-bottom:10px;
+	line-height: 1.4em;
+}
+
+ul.niv_grey_flap, ul.niv_grey, ul.grey {
+	list-style-image: url('../images/public/niv_grey.gif');
+}
+
+ul.niv_green_flap, ul.niv_green, ul.green {
+	list-style-image: url('../images/public/niv_green.gif');
+}
+
+ul.niv_orange_flap, ul.niv_orange, ul.orange {
+	list-style-image: url('../images/public/niv_orange.gif');
+}
+
+ul.niv_purple_flap, ul.niv_purple, ul.purple {
+	list-style-image: url('../images/public/niv_purple.gif');
+}
+
+ul.niv_gold_flap, ul.niv_gold, ul.gold {
+	list-style-image: url('../images/public/niv_gold.gif');
+}
+
+ul.niv_lightblue_flap, ul.niv_lightblue, ul.lightblue {
+	list-style-image: url('../images/public/niv_lightblue.gif');
+}
+
+ul.niv_blue li, ul.blue li, ul.niv_grey li, ul.grey li, ul.niv_green li, ul.green li, ul.niv_orange li, ul.orange li, ul.niv_purple li, ul.purple li, ul.niv_gold li, ul.gold li, ul.niv_lightblue li, ul.lightblue li {
+	padding-left: 3px;
+	/* Behebung EI-Problem mit: 15px */
+}
+ul.niv_blue_flap li, ul.blue_flap li, ul.niv_grey_flap li, ul.grey_flap li, ul.niv_green_flap li, ul.green_flap li, ul.niv_orange_flap li, ul.orange_flap li, ul.niv_purple_flap li, ul.purple_flap li, ul.niv_gold_flap li, ul.gold_flap li, ul.niv_lightblue_flap li, ul.lightblue_flap li {
+	padding-left: 3px;
+}
+
+.pb_content ul.pb_address {
+	margin-left: 0;
+	padding-left: 0;
+	list-style-type: none;
+}
+
+.pb_content ul.pb_address li {
+	line-height: 1.6em;
+}
+
+/*
+- page columns -
+*/
+
+div.pb_content-left-3col-span {
+        width: 560px;
+        float: left;
+        /*background-color: #FAFAFA;*/
+}
+
+
+
+
+div.pb_content-left-popupcol-span {
+        width: 750px;
+        float: left;
+        /*background-color: #FAFAFA;*/
+}
+
+div.pb_content-right-1col {
+        width: 170px;
+        float: right;
+        /*padding-top:13px;
+        background-color: #FAFAFA;*/
+}
+
+div.pb_content-left-2col div.pb_content_col1,
+div.pb_content-left-2col div.pb_content_col2 {
+        width: 275px;
+        margin-left: 10px;
+        float: left;
+}
+
+div.pb_content_col,
+div.pb_content-left-3col div.pb_content_col1,
+div.pb_content-left-3col div.pb_content_col2,
+div.pb_content-left-3col div.pb_content_col3
+{
+        width: 180px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+div.pb_content_col1, .first-col {
+        margin-left: 0 !important;
+}
+
+div.pb_content-left-2col {
+        float: left;
+        margin-bottom: 5px;
+}
+
+div.pb_content-left-3col {
+        float: left;
+        /* margin: 5px 0 5px 0; */
+        margin-bottom: 10px;
+}
+
+div.pb_content_col p {
+        padding-bottom: 0.5em;
+}
+
+/* - Borders - */
+
+.border_white {
+        border: 1px solid #FFFFFF;
+}
+
+.border_lightblue {
+        border: 1px solid #0097C2;
+}
+
+.border_darkblue {
+        border: 1px solid #8d9fb4;
+}
+
+/*
+- Contact Box -
+*/
+
+div#contactbox {
+        height: 143px;
+}
+
+ul#cbox_navi {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+ul#cbox_navi li {
+        width: 35px;
+        height: 35px;
+        float: left;
+        margin: 0 0 11px 10px;
+}
+ul#cbox_navi li#cbox_icon1 {
+        margin-left: 0;
+}
+
+.cbox_content-off,
+.cbox_content-on {
+        width: 100%;
+        float: left;
+}
+
+.cbox_content-off { display: none; }
+.cbox_content-on { display: block; }
+
+#cbox_content {
+        width: 100%;
+}
+
+#cbox_content p {
+        width: 100%;
+}
+
+#cbox_content p a {
+        text-decoration: none;
+}
+
+#cbox_content p.cbox_headline,
+#toolbox p.tbox_headline {
+        margin-top: 10px;
+        font-weight: bold;
+        font-size: 12px;
+        color: #333;
+}
+
+#cbox_content p.cbox_subheadline {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 13px;
+        color: #002F5F;
+}
+
+#cbox_content p.cbox_copy {
+        margin-top: 5px;
+        width: 100%;
+        font-weight: normal;
+        font-size: 10px;
+        color: #666;
+}
+
+input.cbox_input {
+        width: 138px;
+        border: 1px solid #CCC;
+        font-size: 10px;
+        color: #999999;
+        padding-left: 3px;
+        float: left;
+}
+
+input.cbox_submit {
+        border: 0;
+        position: relative;
+        top: -1px;
+        float: right;
+}
+
+/*
+- Tool Box -
+*/
+
+ul#tbox_navi {
+        list-style-type: none;
+        margin:0;
+        padding:0;
+}
+
+ul#tbox_navi li {
+        border-bottom: 1px solid #D1D1D2;
+        line-height: 27px;
+}
+
+/*
+- Side boxes -
+-- general styles for boxes on the right side
+*/
+
+div.sidebox {
+        width: 100%;
+        /*margin-bottom: 22px !important;*/                                /* Firefox */
+        /*margin-bottom: 15px;*/
+
+}
+
+div.sidebox p,
+div.sidebox li,
+div.sidebox td {
+        font-size: 11px;
+}
+
+div.sidebox p.sidebox_headline {
+        /* margin-top: 11px; */
+        font-weight: bold;
+        font-size: 12px;
+        color: #333;
+        line-height: 14px;
+}
+
+div.sidebox p.sidebox_subheadline {
+        margin: 3px 0 0;
+        font-weight: bold;
+        font-size: 13px;
+        color: #002F5F;
+}
+
+div.sidebox p.sidebox_copy {
+        margin: 2px 0;
+        line-height: 1.2em;
+        font-weight: normal;
+        font-size: 10px;
+        color: #666;
+        width: 100%;
+}
+
+div.sidebox p.sidebox_news {
+        margin: 10px 0;
+        line-height: 1.2em;
+        font-weight: normal;
+        font-size: 11px;
+        color: #666;
+        width: 100%;
+}
+
+div.sidebox p.sidebox_input {
+        margin-top: 9px;
+}
+
+div.sidebox p.sidebox_moreinfo {
+        text-align: right;
+}
+
+ul.sidebox_navi {
+        list-style-type: none;
+        margin:0 0 8px 0;
+        padding:0;
+}
+
+ul.sidebox_navi li {
+        border-bottom: 1px solid #D1D1D2;
+        line-height: 27px;
+}
+
+/*
+- Tables -
+*/
+
+table {
+        width: 100%;
+}
+
+table.blue_cells {
+        border-collapse: collapse;
+        border: 0;
+        margin: 3px 0 0 0;
+        padding: 0;
+}
+
+table.blue_cells th,
+table.blue_cells td {
+        vertical-align: top;
+        font-size: 11px;
+        text-align: left;
+        padding: 7px;
+        line-height: 14px;
+        border: 0;
+}
+
+table.blue_cells th {
+        font-size: 12px;
+        font-weight: bold;
+        color: #FFFFFF;
+        vertical-align: top;
+        line-height: 12px;
+}
+
+table.blue_cells th.darkblue {
+        background-color: #213865;
+}
+
+table.blue_cells th.middleblue {
+        background-color: #8E9CB1;
+}
+
+table.blue_cells td.middleblue {
+        background-color: #8E9CB1;
+        color: #FFFFFF;
+        font-weight: bold;
+}
+
+table.blue_cells th.green {
+        background-color: #A1B61F;
+}
+
+table.blue_cells td {
+        border-top: 2px solid #FFF;
+        color: #213865;
+}
+
+table.blue_cells td li {
+        line-height: 14px;
+}
+
+table.blue_cells th.main-col-headline,
+table.blue_cells td.main-col-even,
+table.blue_cells td.main-col-odd
+{
+        font-weight: bold;
+}
+
+table.blue_cells th.sub-col-headline,
+table.blue_cells td.sub-col-even,
+table.blue_cells td.sub-col-odd {
+        border-left: 6px solid #FFFFFF;
+}
+
+table.blue_cells td.main-col-even, table.blue_cells td.main-col-empty { background-color: #FFFFFF; width: 200px;}
+table.blue_cells td.main-col-odd { background-color: #D9DFE6; width: 200px;}
+
+table.blue_cells td.sub-col-even, table.blue_cells td.sub-col-empty { background-color: #FFFFFF }
+table.blue_cells td.sub-col-odd { background-color: #D9DFE6 }
+
+table td.category {
+        width: 160px;
+        font-weight: bold;
+}
+
+table#tbl_type1 th.sub-col-headline,
+table#tbl_type1 td.sub-col-even,
+table#tbl_type1 td.sub-col-odd,
+table.type01 th.sub-col-headline,
+table.type01 td.sub-col-even,
+table.type01 td.sub-col-odd
+{
+        width: 50px;
+}
+
+/* Table class 'type02' */
+
+table.type02 th.main-col-headline,
+table.type02 td.main-col-even,
+table.type02 td.main-col-odd {
+        width: 320px;
+}
+
+table.type02 td.main-col-even,
+table.type02 td.main-col-odd,
+table.type02 td.sub-col-even,
+table.type02 td.sub-col-odd {
+        color: #333;
+        font-weight: normal;
+}
+
+table.type02 td.sub-col-odd {
+        background-color: #DFDFDF;
+}
+
+table.type02 th.sub-col-headline,
+table.type02 td.sub-col-even,
+table.type02 td.sub-col-odd {
+        text-align: right;
+}
+
+/* ------- */
+
+td.sub-col-even ul,
+td.sub-col-odd ul {
+        list-style-type: disc;
+        margin-left: 16px;
+}
+
+table#Daten_und_Fakten td {
+        vertical-align: top;
+        line-height: 1.6em;
+}
+
+table#Daten_und_Fakten td,
+table#Daten_und_Fakten td ul li {
+        padding-bottom: 1px;
+}
+
+table#groups {
+        margin: 5px 0;
+}
+
+table#groups td {
+        line-height: 1.4em;
+        vertical-align: middle;
+}
+
+table#groups td.group {
+        text-align: right;
+        width: 99px;
+}
+
+table#groups td.ampel {
+        padding-left: 7px;
+}
+
+table#groups td.ampel img.ampel_dot {
+        margin-right: 3px;
+}
+
+table#groups td.group-first, table#groups td.ampel-first  { padding-top: 12px; }
+table#groups td.group-last, table#groups td.ampel-last, table.blue_cells td.last  { padding-bottom: 12px; }
+
+
+
+table#Geschichte td {
+        vertical-align: top;
+        line-height: 1.6em;
+}
+
+table#Geschichte td {
+        padding-bottom: 10px;
+}
+
+table#Geschichte td.category {
+        width: 100px;
+        font-weight: bold;
+        vertical-align: top;
+}
+
+table#Presse td {
+        border-bottom: 1px solid #D1D1D2;
+        padding:20px 0 5px 0;
+}
+
+table#Presse td.presse {
+        width: 100px;
+        vertical-align: top;
+}
+
+table#Presse td div {
+        font-weight: bold;
+        padding-bottom:10px;
+        line-height:15px;
+}
+
+table#Presse p.mainbox_moreinfo {
+        text-align:right;
+}
+
+table#Pressearchiv td {
+        padding:10px 0 0 0;
+}
+
+table#Pressearchiv td.pressearchiv {
+        width: 100px;
+        vertical-align: top;
+}
+
+table#Pressearchiv a.bluelink {
+        text-decoration:none;
+        background: url('../images/public/bluelink_arrow.gif') right center no-repeat #FFFFFF;
+        padding-right: 10px;
+        color: #0c3967;
+}
+
+table.ansprechpartner td {
+        color:#333333;
+        padding:10px 0 15px 0;
+}
+
+table.blue_cells_affiliate {
+        border-collapse: collapse;
+        border: 0;
+        margin: 0 0 30px 0;
+        padding: 0;
+}
+
+table.blue_cells_affiliate th,
+table.blue_cells_affiliate td {
+        vertical-align: top;
+        font-size: 11px;
+        text-align: left;
+        padding: 4px 7px;
+        line-height: 14px;
+        border: 0;
+}
+
+table.blue_cells_affiliate th.darkblue {
+        background-color: #213865;
+        color:#ffffff;
+        line-height: 16px;
+}
+
+table.blue_cells_affiliate td.main-col-even, table.blue_cells_affiliate td.main-col-empty { background-color: #FFFFFF;}
+table.blue_cells_affiliate td.main-col-odd { background-color: #D9DFE6;}
+
+/*
+- Footer Links -
+*/
+
+div#footerlinks {
+        /* height: 109px; */
+}
+
+div#footerlinks {
+        margin: 45px 0;
+        clear: left;
+}
+
+div#footerlinks_special {
+        margin: 0px 0;
+        font-size: 11px;
+        clear: left;
+}
+
+
+div#footerlinks ul {
+        list-style-type: none;
+        /* margin-left: 0; */
+        margin: 2px 0;
+}
+
+div#footerlinks ul li {
+        font-size: 11px;
+}
+
+div#footerlinks p.subheadline {
+        font-weight: bold;
+}
+
+h3.footerlinks_hl {
+        /* border-bottom: 1px solid #D1D1D2; */
+        /* margin-bottom: 15px; */
+        /* padding-bottom: 9px; */
+        padding-bottom: 6px;
+        display: block;
+}
+
+h3.grey_line, p.grey_line {
+        padding-bottom: 6px;
+        border-bottom: 1px solid #D1D1D2;
+}
+
+/*
+- Footer -
+*/
+
+div#pb_footer {
+        border-top: 1px solid #D1D1D2;
+        margin: 40px 0 0 15px;
+        clear: both;
+}
+
+/* /kredit/willkommens-kredit.html */
+/* div.pb_mainbanner#pb_mb_kredit_willkommenskredit { */
+/*        background: url('../images/kredit/vis-kredit-start.jpg') no-repeat left top #FFFFFF;  */
+        /* background: url('../images/kredit/willkommenskredit/vis-willkommenskredit.jpg') no-repeat left top #FFFFFF;*/
+/*}
+
+/*
+- ------------------------------- Popups --------------------------------------- -
+*/
+
+body.pb_popup div.pb_content {
+        /* width: 100%; */
+}
+
+body.pb_popup table.blue_cells {
+        margin: 20px;
+}
+
+body.pb_popup table.blue_cells th.main-col-headline,
+body.pb_popup table.blue_cells td.main-col-even,
+body.pb_popup table.blue_cells td.main-col-odd {
+        width: 200px;
+        
+}
+
+body.pb_popup table.blue_cells1 th.main-col-headline,
+
+        width: 1200px;
+}
+
+
+
+/* ### Kreditkarten 3D-Secure ### */
+div.pb_popup_kreditkarten3D-Secure {
+        width: 750px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.content div.text p, div.pageContent p {
+        font-size: 11px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.content div.moreinfo {
+        margin-top: 20px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.navi {
+        background: transparent url('../images/konto/kreditkarten-1x1/divider.gif') no-repeat center top;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+        width: 744px;
+        height: 45px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageVisual {
+        /* height: 431px; */
+        height: 445px;
+        margin-right: 30px;
+        float: left;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageContent {
+        width: 370px;
+        float: left;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageContent p {
+        font-weight: normal;
+        line-height: 1.4em;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageContent p a {
+        text-decoration: underline;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.FormListItemCont p {
+        margin-top: 10px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageContent ul li a.bluelink {
+        font-size: 11px;
+        line-height: 24px;
+}
+
+div#popup-kreditkarten3D-Secure-start div.pageContent {
+        margin-top: 4px;
+        padding-left: 370px;
+        height: 419px !important;
+        height: 416px;
+        background: url('../images/konto/kreditkarten-3D-Secure/vis-kreditkarten3D-Secure.jpg') no-repeat left center #FFF;
+}
+
+div#popup-kreditkarten3D-Secure-start div.pageContent p {
+        width: 320px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageCloser {
+        margin: 10px 10px 0 0;
+        float: right;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageNavi {
+        clear: both;
+        width: 100%;
+        text-align: center;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.butNav {
+        margin: 0 auto;
+        width: 85%;
+        border-top: 1px solid #CCCCCC;
+}
+
+div.pb_popup_kreditkarten3D-Secure .butClose {
+        position: absolute;
+        top: 10px;
+}
+
+div.pb_popup_kreditkarten3D-Secure1 div.butNav img { margin-top: 10px; }
+div.pb_popup_kreditkarten3D-Secure div.butNav a.butNavLeft { float: left; }
+div.pb_popup_kreditkarten3D-Secure div.butNav a.butNavRight { float: right; }
+
+div.pb_popup_kreditkarten3D-Secure .pageContent h1 {
+        margin-bottom: 12px;
+}
+
+div.pb_popup_kreditkarten3D-Secure h1 span {
+        display: none;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.navi div.navLeft {
+        float: left;
+        margin-left: 26px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.navi div.navRight {
+        float: right;
+        margin-right: 26px;
+}
+
+div.pb_popup_kreditkarten3D-Secure div.pageContent p.pb_footnote_grey, span.pb_footnote_grey {
+        font-size: 10px;
+        line-height: 1.1em;
+        color: #999;
+}
+
+
+/* ### Kreditkarten 1 x 1 ###   width: 750px; */
+div.pb_popup_kreditkarten1x1 {
+        background-color:#fff;
+}
+
+div.pb_popup_kreditkarten1x1 div.content div.text p, div.pageContent p {
+        font-size: 11px;
+}
+
+div.pb_popup_kreditkarten1x1 div.content div.moreinfo {
+        margin-top: 20px;
+}
+
+div.pb_popup_kreditkarten1x1 div.navi {
+        background: transparent url('../images/konto/kreditkarten-1x1/divider.gif') no-repeat center top;
+        margin: 0px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
+        width: 744px;
+        height: 45px;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageVisual {
+        /* height: 431px; */
+        height: 445px;
+        margin-right: 30px;
+        float: left;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageContent {
+        width: 370px;
+        float: left;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageContent p {
+        font-weight: normal;
+        line-height: 1.4em;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageContent p a {
+        text-decoration: underline;
+}
+
+div.pb_popup_kreditkarten1x1 div.FormListItemCont p {
+        margin-top: 10px;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageContent ul li a.bluelink {
+        font-size: 11px;
+        line-height: 24px;
+}
+
+div#popup-kreditkarten1x1-start div.pageContent {
+        margin-top: 4px;
+        padding-left: 370px;
+        height: 419px !important;
+        height: 416px;
+        background: url('../images/konto/kreditkarten-1x1/vis-kreditkarten1x1.jpg') no-repeat left center #FFF;
+}
+
+div#popup-kreditkarten1x1-start div.pageContent p {
+        width: 320px;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageCloser {
+        margin: 10px 10px 0 0;
+        float: right;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageNavi {
+        clear: both;
+        width: 100%;
+        text-align: center;
+}
+
+div.pb_popup_kreditkarten1x1 div.butNav {
+        margin: 0 auto;
+        width: 85%;
+        border-top: 1px solid #CCCCCC;
+}
+
+div.pb_popup_kreditkarten1x1 .butClose {
+        position: absolute;
+        top: 10px;
+}
+
+div.pb_popup_kreditkarten1x1 div.butNav img { margin-top: 10px; }
+div.pb_popup_kreditkarten1x1 div.butNav a.butNavLeft { float: left; }
+div.pb_popup_kreditkarten1x1 div.butNav a.butNavRight { float: right; }
+
+div.pb_popup_kreditkarten1x1 .pageContent h1 {
+        margin-bottom: 12px;
+}
+
+div.pb_popup_kreditkarten1x1 h1 span {
+        display: none;
+}
+
+div.pb_popup_kreditkarten1x1 div.navi div.navLeft {
+        float: left;
+        margin-left: 26px;
+}
+
+div.pb_popup_kreditkarten1x1 div.navi div.navRight {
+        float: right;
+        margin-right: 26px;
+}
+
+div.pb_popup_kreditkarten1x1 div.pageContent p.pb_footnote_grey, span.pb_footnote_grey {
+        font-size: 10px;
+        line-height: 1.1em;
+        color: #999;
+}
+
+
+/*
+- additional styles -
+*/
+
+div.pb_content p.pb_footnote_grey, div.pb_content p.footnote_grey {
+        color: #999;
+        font-size: 11px;
+        line-height: 1.4em;
+}
+
+div.pb_content p.pb_footnote_black {
+        margin: 4px 0;
+        color: #333;
+        font-size: 11px;
+}
+
+div.pb_content p.pb_footnote_black a,
+div.pb_content p.pb_footnote_black a:hover,
+div.pb_content p.pb_footnote_black a:link,
+div.pb_content p.pb_footnote_black a:active,
+div.pb_content p.pb_footnote_black a:visited {
+        color: #002f5f;
+        text-decoration: none;
+}
+
+div.pb_content .pb_footnote_phonecosts {
+        color: #999;
+        font-size: 11px;
+}
+
+.grey_bottom_line {
+        border-bottom: 1px solid #D1D1D1;
+}
+
+div.pb_content .strong {
+        font-weight: bold;
+}
+
+div.pb_content p.pb_toptext {
+        margin-top: -4px;
+}
+
+.nobottom { padding-bottom:0; margin-bottom: 0 }
+
+.smallitalic, .font_smallitalic {
+        font-size:10px !important;
+        font-style:italic;
+}
+
+.font_normal {
+        font-weight: normal;
+}
+
+.bluebold {
+        font-weight: bold;
+        color: #002f5f;
+}
+
+.graybold {
+        font-weight: bold;
+        color: #807f7f;
+}
+
+.sign_left {
+        float: left;
+        margin-right: 20px;
+}
+
+.bluered-line {
+        background: url('../images/public/bg_bluered-line.gif') left top repeat-x #FFFFFF;
+}
+
+.left-aligned {
+        text-align: left;
+}
+
+.right-aligned {
+        text-align: right;
+}
+
+div.pb_mainbanner_content p.pb_footnote_grey {
+        width: 275px;
+        margin-top: 0.3em !important;
+}
+
+/* mouseover bilder */
+
+div#pb_content_layer, div#pb_content_layer1 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer1 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer1 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+
+
+div#pb_content_layer, div#pb_content_layer2 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer2 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer2 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+
+div#pb_content_layer, div#pb_content_layer3 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer3 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer3 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+
+div#pb_content_layer, div#pb_content_layer4 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer4 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer4 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+
+div#pb_content_layer, div#pb_content_layer5 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer5 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer5 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+
+div#pb_content_layer, div#pb_content_layer6 {
+        position: absolute;
+        top: 100px;
+        text-align: center;
+        width: 100%;
+        display: none;
+        z-index: 100;
+}
+
+div#pb_content_layer6 {
+        top: 400px;
+}
+
+div.pb_content div#pb_content_layer img,
+div.pb_content div#pb_content_layer6 img,
+.content_layer {
+        border: 1px solid #CCCCCC;
+}
+/* end mouseover bilder */
+
+div.pb_content p.but_blue,
+div.pb_content p.but_jetztbeantragen /* <- old */ {
+        margin: 24px 0;
+}
+
+div.pb_mainbanner div#pb_mainbanner_button {
+        position: relative;
+        float: right;
+        top: 184px;
+        right: 20px;
+}
+
+/* bluelink */
+
+a.bluelink,
+div.pb_content div.pb_flap_content-active p a.bluelink
+{
+        background: url('../images/public/bluelink_arrow.gif') right center no-repeat transparent;
+        color: #0C3967;
+        padding-right: 10px;
+        text-decoration: none;
+}
+
+a.dienstinfo
+{
+padding-right: 0px !important;
+}
+
+a.bluelink:hover, a.bluelink:active, a.bluelink:hover, a.bluelink:visited {
+        color: #0C3967;
+}
+
+ul#tbox_navi li a.bluelink {
+        display: block;
+        width: 100%;
+        font-size: 11px;
+}
+
+ul.sidebox_navi li a.bluelink {
+        display: block;
+        width: 100%;
+        padding-right: 0;
+        font-size: 11px;
+}
+
+div#footerlinks li a.bluelink,
+p.mainbox_moreinfo a.bluelink,
+p.mainbox_list_moreinfo a.bluelink
+{
+        font-size: 11px;
+}
+
+table#groups {
+        width: 100%;
+        border: 1px solid #D1D1D2;
+}
+
+img.icon_info {
+        position: relative;
+        top: 1px;
+}
+
+/*
+- competence fields -
+*/
+
+table#Daten_und_Fakten {
+        margin-top: 13px;
+}
+
+/*
+div.pb_mainbanner#pb_mb_willkommensfestgeld {
+        background: url('../images/sparen-geldanlage/willkommensfestgeld/vis-willkommensfestgeld.jpg') no-repeat left top #ffffff;
+}
+*/
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_hint {
+        position: absolute;
+        top: 310px;
+        right: 310px;
+        width: 160px;
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_hint h5 {
+        color: #002F5F;
+        font-size: 13px;
+        margin-bottom: 5px; /*10px;*/
+        margin-top: 0px;
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_hint p {
+        margin-top: 0px;
+        color: #666666;
+        font-size: 11px;
+        line-height: 1.2em;
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_hint p a {
+        color: #666666 !important;
+        text-decoration: underline;
+}
+
+/*START Update for: #80 TD Calculator*/
+
+#CalcResult {
+        display: none;
+        position:absolute;
+        top: -10px;
+        left: -7px;
+        width: 222px;
+        height: 117px;
+}
+
+#CalcError1 {
+        display: none;
+        position:absolute;
+        top: -15px;
+        left: -15px;
+        width: 222px;
+        height: 117px;
+}
+
+#CalcError2 {
+        display: none;
+        position:absolute;
+        top: -15px;
+        left:-15px;
+        width: 222px;
+        height: 117px;
+}
+
+/*END Update for: #80 TD Calculator*/
+
+
+
+/*
+------------------------
+- site specific styles -
+------------------------
+*/
+
+div.pb_mainbanner_content {                                                        /* general content position within the mainbanner area */
+        left: 472px;
+        top: 86px;
+        width: 275px;
+}
+
+/*        /sparen-geldanlage/uebersicht.html                                */
+div.pb_mainbanner#pb_mb_sparengeldanl_uebers {
+        background: url('../images/sparen-geldanlage/thu-03-sparen-geldanlage.jpg') no-repeat left top #ffffff;
+/*        background: url('../images/sparen-geldanlage/vis-00-sparen-geldanlage.jpg') no-repeat left top #FFFFFF; */
+}
+
+/*        /sparen-geldanlage/tagesgeld.html                                        */
+div.pb_mainbanner#pb_mb_tagesgeldkonto {
+        background: url('../images/sparen-geldanlage/tagesgeld/vis-01-tagesgeldkonto.jpg') no-repeat left top #FFFFFF;
+}
+
+/*        /sparen-geldanlage/sommer-festgeld.html                                     */
+div.pb_mainbanner#pb_mb_sommerfestgeld {
+        background: url('../images/sparen-geldanlage/vis-01-sommerfestgeld.jpg') no-repeat left top #FFFFFF;
+}
+
+/*        /sparen-geldanlage/aktions-festgeld.html                                     */
+div.pb_mainbanner#pb_mb_aktionsfestgeld {
+        background: url('../images/sparen-geldanlage/aktionsfestgeld/vis-02-aktionsfestgeld.jpg') no-repeat left top #FFFFFF;
+}
+div.pb_mainbanner#pb_mb_aktionsfestgeld_produkt {
+        background: url('../images/sparen-geldanlage/aktionsfestgeld/vis-01-aktionsfestgeld.jpg') no-repeat left top #FFFFFF;
+}
+
+/*        /sparen-geldanlage/rendite_plus.html                                        */
+div.pb_mainbanner#pb_mb_renditeplus {
+        background: url('../images/sparen-geldanlage/rendite-plus/vis-01-renditeplus.jpg') no-repeat left top #FFFFFF;
+}
+
+/*        /sparen-geldanlage/junior-sparkonto.html                                        */
+div.pb_mainbanner#pb_mb_juniorsparkonto {
+        background: url('../images/sparen-geldanlage/junior-sparkonto/vis-01-junior-sparkonto.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_tagesgeldkonto div.pb_mainbanner_content {
+        top: 96px;
+}
+
+div.pb_mainbanner_content#pb_mb_content_tagesgeldkonto {
+        left: 470px;
+        top: 86px;
+}
+
+/*  /sparen-geldanlage/festgeld_html.html                added new                */
+div.pb_content div.pb_calc {
+        margin-top: 0;
+        /*background: url('../images/public/skin_calc_bottomshadw.gif') left top no-repeat #FFFFFF;*/
+        background: url('../images/sparen-geldanlage/festgeld/calc/skin_festg_calc_bottomshadw.gif') left top no-repeat #FFFFFF;
+}
+
+div.pb_content div.pb_calc h2 {
+        top: 26px;
+}
+
+/*  /sparen-geldanlage/doppelzins.html                */
+div.pb_mainbanner#pb_mb_doppelzins {
+        background: url('../images/sparen-geldanlage/doppelzins/vis-02-doppelzins-sparen.jpg') no-repeat left top #ffffff;
+}
+
+div.pb_mainbanner#pb_mb_doppelzins div.pb_mainbanner_content {
+        top: 76px;
+}
+
+/*  /sparen-geldanlage/rendite_sparbuch.html                        */
+div.pb_mainbanner#pb_mb_rendite_sparkarte {
+        background: url('../images/sparen-geldanlage/rendite-sparbuch/vis-03-rendite-sparkarte-online.jpg') no-repeat left top #ffffff;
+}
+
+div.pb_mainbanner#pb_mb_rendite_sparkarte div.pb_mainbanner_content {
+        top: 96px;
+}
+
+/*  /sparen-geldanlage/bausparen.html                                        */
+div.pb_mainbanner#pb_mb_bausparen {
+        background: url('../images/sparen-geldanlage/bausparen/vis-05-bausparen_alt.jpg') no-repeat left top #ffffff;
+}
+
+div.pb_mainbanner#pb_mb_bausparen div.pb_mainbanner_content {
+        top: 122px;
+}
+
+/*        /sparen-geldanlage/festgeld.html                                        */
+
+div.pb_mainbanner#pb_mb_festgeld {
+        /* background: url('/images/sparen-geldanlage/dummy_headervisual.jpg') no-repeat left top #ffffff; */
+        background: url(../images/bg_skin_calc01b.gif) no-repeat scroll center top;
+}
+
+div.pb_mainbanner#pb_mb_festgeld_calc {
+        margin-top: 25px;
+        height: 220px;
+        width: 580px;
+/*        background: url('./images/public/skin_calc.gif') no-repeat left top #FFF;*/
+/*background: url(../images/bg_skin_calc01b.gif) no-repeat scroll center top;*/
+background: url(../images/sparen-geldanlage/festgeld/calc/skin_festg_calc.gif) no-repeat scroll center top;
+
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_col-left,
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_col-right {
+        position: relative;
+        top: 20px;
+        margin-bottom: 18px;
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_col-left {
+        width: 252px;
+        left: 36px;
+        float: left;
+}
+
+div#pb_mb_festgeld_calc div.pb_mb_festgeld_calc_col-right {
+        width: 222px;
+        right: 32px;
+        float: right;
+}
+
+div#festgeld_html div.pb_mainheadline {
+        margin-top: 0;
+        padding-top: 7px;
+        background: url('../images/sparen-geldanlage/festgeld/calc/skin_festg_calc_bottomshadw.gif') no-repeat left top #FFF;
+
+}
+
+/* - Kredit - */
+
+/* /kredit/start.html */
+div.pb_mainbanner#pb_mb_kredit_start {
+        background: url('../images/kredit/vis-kredit-start.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /kredit/modernisierungskredit.html */
+div.pb_mainbanner#pb_mb_kredit_modernkredit {
+        background: url('../images/kredit/modernkredit/vis-modernkredit.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /kredit/studenten.html */
+div.pb_mainbanner#pb_mb_kredit_studenten {
+        background: url('../images/kredit/studentenkredit/vis-kfw-studienkredit.gif') no-repeat left top #FFFFFF;
+}
+
+/* /kredit/baufinanzierung.html */
+div.pb_mainbanner#pb_mb_kredit_baufinanzierung {
+        background: url('../images/kredit/baufinanzierung/vis-baufinanzierung.jpg') no-repeat left top #FFFFFF;
+}
+
+/* ### Ratenpause ###  */
+div.pb_popup_ratenpause {
+        background-color:#fff;
+}
+
+
+/* - Service - */
+
+/* /online-banking.html */
+div.pb_mainbanner#pb_mb_service_online-banking {
+        background: url('../images/service/online-banking/vis-online-banking2.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /sb-banking.html */
+div.pb_mainbanner#pb_mb_service_sb-banking {
+        background: url('../images/service/sb-banking/vis-sb-banking.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/start.html */
+div.pb_mainbanner#pb_mb_service_start {
+        background: url('../images/service/vis-services-start.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/konto-sms-service.html */
+div.pb_mainbanner#pb_mb_service_kontoticker {
+        background: url('../images/service/konto-sms-service/vis-kontoticker-kostenlosesaktivkonto.jpg') no-repeat left top #FFFFFF;
+}vis-mobile-services.jpg
+
+/* /service/mobile-services.html */
+div.pb_mainbanner#pb_mb_mobile_services {
+        background: url('../images/service/mobile-services/vis-mobile-services.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/mobile-banking.html */
+div.pb_mainbanner#pb_mb_mobile_banking {
+        background: url('../images/service/mobile-services/vis-mobile-banking.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/formulare.html */
+div.pb_mainbanner#pb_mb_service_formulare {
+        background: url('../images/service/konto-sms-service/vis-formulare.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/newsletter.html */
+div.pb_mainbanner#pb_mb_service_newsletter {
+        background: url('../images/service/newsletter/vis-newsletter.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/auslandservices.html */
+div.pb_mainbanner#pb_mb_service_auslandservices {
+        background: url('../images/service/auslandservice/vis-auslandservice.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/haeufige-fragen.html */
+div.pb_mainbanner#pb_mb_service_haeufige-fragen {
+        background: url('../images/service/haeufige-fragen/vis-haeufige-fragen.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/rechner-und-tools.html */
+div.pb_mainbanner#pb_mb_service_rechner-und-tools {
+        background: url('../images/service/rechner-und-tools/vis-rechner-und-tools.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/rechner-und-tools.html */
+div.pb_mainbanner#pb_mb_service_suchen-und-finden {
+        background: url('../images/service/suchen-und-finden/vis-suchen-und-finden.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/filialsuche.html */
+div.pb_mainbanner#pb_mb_service_filialsuche {
+        background: url('../images/service/suchen-und-finden/filialsuche/vis-volltextsuche.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/sicherheit.html */
+div.pb_mainbanner#pb_mb_service_sicherheit {
+        background: url('../images/service/sicherheit/vis-sicherheit.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/rechtliche-hinweise.html */
+div.pb_mainbanner#pb_mb_service_rechtliche-hinweise {
+        background: url('../images/service/rechtliche-hinweise/vis-rechtliche-hinweise.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/kontakt/start.html */
+div.pb_mainbanner#pb_mb_service_kontakt_start {
+        background: url('../images/service/kontakt/vis-kontakt.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/start.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_start {
+        background: url('../images/service/besondere-services/vis-besondere-services.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/tuerkischer-service.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_tuerkischer-service {
+        background: url('../images/service/besondere-services/tuerkischer-service/vis-tuerkischer-service.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/tuerkischer-service.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_freundschaftswerbung {
+        background: url('../images/service/besondere-services/freundschaftswerbung/vis-freundschaftswerbung.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/partner-programm.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_partner-programm {
+        background: url('../images/service/besondere-services/partner-programm/vis-partner-programm.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/werder-bremen.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_werder-bremen {
+        background: url('../images/service/besondere-services/werder-bremen/vis-werder-bremen.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/besondere-services/so-geht-bank-heute.html */
+div.pb_mainbanner#pb_mb_service_besondere-services_sgbh {
+        background: url('../images/service/besondere-services/so-geht-bank-heute/vis-sgbh.jpg') no-repeat left top #FFFFFF;
+}
+
+
+/* - Vermoegen - */
+
+/* /service/vermoegen/investment-sparplan.html */
+div.pb_mainbanner#pb_mb_vermoegen_investment-sparplan {
+        background: url('../images/vermoegen/investment-sparplan/vis-investment-sparplan.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/depot.html */
+div.pb_mainbanner#pb_mb_vermoegen_depot {
+        background: url('../images/vermoegen/depot/vis-depot.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/brokerage.html */
+div.pb_mainbanner#pb_mb_vermoegen_brokerage {
+        background: url('../images/vermoegen/brokerage/vis-brokerage.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-neutral.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_depot_tauschen.html */
+div.pb_mainbanner#pb_mb_vermoegen_tauschaktion {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-depottausch.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_UBS.html */
+div.pb_mainbanner#pb_mb_vermoegen_UBSaktion {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktionfonds_UBS_02.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_cs_aktienanleihe.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_feiertag_hsbc {
+        background: url('../images/vermoegen/fonds-online-angebot/banner_cs-aktienanleihe-protect.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_cs_aktienanleihe.html BIS 03.09.2012*/
+div.pb_mainbanner#pb_mb_vermoegen_aktion_aktienanleihe_daimler {
+        background: url('../images/vermoegen/fonds-online-angebot/banner_cs-aktienanleihe-daimler.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_cs_aktienanleihe_6.html 2*/
+div.pb_mainbanner#pb_mb_vermoegen_aktion_aktienanleihe_daimler_6 {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-csanleihe_6.jpg') no-repeat left top #FFFFFF;
+}
+
+
+/* /service/vermoegen/aktion_FreeBuy.html */
+div.pb_mainbanner#pb_mb_vermoegen_freebuy {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktionfonds_freebuy.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_Anleihe.html */
+div.pb_mainbanner#pb_mb_vermoegen_anleihe {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktionfonds_anleihe.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_FreeTrade.html */
+div.pb_mainbanner#pb_mb_vermoegen_freetrade {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktionfonds_freetrade.jpg') no-repeat left top #FFFFFF;
+}
+/* /service/vermoegen/aktion_freetrade_feiertag.html */
+div.pb_mainbanner#pb_mb_vermoegen_freetrade_feiertag {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktionfonds_freetrade_feiertag_hsbc.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/aktion_freetrade_feiertag.html */
+div.pb_mainbanner#pb_mb_vermoegen_angebot_01 {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktienanleihe_daimler.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/ubs.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_ubs {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-ubs.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/top-fondsangebot.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_topfondsangebot {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-top-fondangebot-standard.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/top-fondsangebot.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_topneuemission {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-schuldverschreibung.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/free-buy-aktion.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_free_buy {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-free-buy.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen//de/vermoegen/aktion_flat_fee_aktion_gs.html */
+div.pb_mainbanner#pb_mb_vermoegen_aktion_flat_fee_gs {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion-free-trade-gs.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/de/vermoegen/aktion_free_trade_hvb.html */
+div.pb_mainbanner#pb_mb_aktion_free_trade_hvb {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion_free_trade_HVB.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /service/vermoegen/de/vermoegen/aktion_free_trade_hvb_zerfifikate.html */
+div.pb_mainbanner#pb_mb_aktion_free_trade_hvb_zertifikate {
+        background: url('../images/vermoegen/fonds-online-angebot/vis-aktion_free_trade_HVB_zertifikate.jpg') no-repeat left top #FFFFFF;
+}
+
+/* - Ueber uns - */
+
+/* /ueber-uns/unternehmen/vorstand_targobank.html */
+div.pb_mainbanner#pb_mb_ueberuns_unternehmen_vorstand {
+        background: url('../images/ueber-uns/unternehmen/pb-mb-vorstand.jpg') no-repeat left top #FFFFFF;
+}
+
+/* - Konto - */
+
+/* /konto/girokonto-aktiv.html */
+div.pb_mainbanner#pb_mb_konto_aktiv-konto {
+        background: url('../images/konto/girokonto-aktiv/vis-aktiv-konto.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/girokonto-best.html */
+div.pb_mainbanner#pb_mb_konto_best-konto {
+        background: url('../images/konto/girokonto-best/headerimage_bestkonto.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/girokonto-extra.html */
+div.pb_mainbanner#pb_mb_konto_extra-konto {
+        background: url('../images/konto/girokonto-extra/headerimage_extrakonto.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/start.html */
+div.pb_mainbanner#pb_mb_konto_start {
+        background: url('../images/konto/img_header_konto_karten.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_konto_start_girokonten {
+        background: url('../images/konto/Banner-girokonten.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_konto_start_kreditkarten {
+        background: url('../images/konto/Banner-kreditkarten.jpg') no-repeat left top #FFFFFF;
+}
+div.pb_mainbanner#pb_mb_konto_start_mobiles-bezahlen {
+        background: url('../images/konto/Banner-mobiles-bezahlen.jpg') no-repeat left top #FFFFFF;
+}
+div.pb_mainbanner#pb_mb_konto_start_gratis-cash {
+        background: url('../images/konto/Banner-gratiscash.jpg') no-repeat left top #FFFFFF;
+}
+div.pb_mainbanner#pb_mb_konto_online-konto {
+        background: url('../images/konto/girokonto-online/vis-online-konto.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_konto_komfort-konto {
+        background: url('../images/konto/girokonto-komfort/headerimage_komfortkonto.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/girokonto-filiale.html */
+div.pb_mainbanner#pb_mb_konto_filiale-konto {
+        background: url('../images/konto/girokonto-filiale/vis-filial-konten.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/girokonto-starter.html */
+div.pb_mainbanner#pb_mb_konto_starter-konto {
+        background: url('../images/konto/girokonto-starter/headerimage_starterkonto.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/kreditkarte-classic.html */
+div.pb_mainbanner#pb_mb_konto_classic-kreditkarte {
+        background: url('../images/konto/kreditkarte-classic/headerimage_classic_karte.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_konto_prepaid {
+        background: url('../images/konto/kreditkarte-prepaid/headerimage_prepaid.jpg') no-repeat left top #FFFFFF;
+}
+
+
+
+
+/* /konto/kreditkarte-gold.html */
+div.pb_mainbanner#pb_mb_konto_gold-kreditkarte {
+        background: url('../images/konto/kreditkarte-gold/headerimage_gold_karte.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/kreditkarte-gold.html */
+div.pb_mainbanner#pb_mb_konto_bestgold-kreditkarte {
+        background: url('../images/konto/kreditkarte-bestgold/vis-bestgold-kreditkarte.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/kreditkarte-pluspunkt.html */
+div.pb_mainbanner#pb_mb_konto_pluspunkt-kreditkarte {
+        background: url('../images/konto/kreditkarte-pluspunkt/headerimage_pluspunkt_karte.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/kreditkarte-premium.html */
+div.pb_mainbanner#pb_mb_konto_premium-kreditkarte {
+        background: url('../images/konto/kreditkarte-premium/headerimage_premium_karte.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/kreditkarte-motivkarte.html */
+div.pb_mainbanner#pb_mb_konto_motivkarte-kreditkarte {
+        background: url('../images/konto/kreditkarte-motivkarte/vis-motivkarte-kreditkarte.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/entertainment-card.html */
+div.pb_mainbanner#pb_mb_konto_entertainment-card {
+        background: url('../images/konto/kreditkarte-entertainment/vis-entertainment-card.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /konto/bezahlchip.html */
+div.pb_mainbanner#pb_mb_konto_bezahlchip {
+        background: url('../images/konto/mobiles-bezahlen/headerimage_bezahlchip.jpg') no-repeat left top #FFFFFF;
+}
+
+
+
+
+/*        Affiliate Programm                                        */
+div.pb_mainbanner#pb_mb_affiliate {
+        background: url('../images/public/affiliate/vis-affiliate.jpg') no-repeat left top #FFFFFF;
+}
+
+table.one_column td.main-col-even,
+table.one_column td.main-col-odd,
+table.form_list td.main-col-even,
+table.form_list td.main-col-odd,
+table#tbl_service_kontoticker td.main-col-even,
+table#tbl_service_kontoticker td.main-col-odd {
+        font-size: 12px;
+        font-weight: normal;
+        color: #333333;
+        width: 100%;
+}
+
+
+/* - Schutz & Vorsorge - */
+
+/* /vorsorge/start.html */
+div.pb_mainbanner#pb_mb_vorsorge_start {
+        background: url('../images/vorsorge/lebensversicherung-flex-life/vis-top-finanzierung_jetzt_info.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /vorsorge/investment-rente.html */
+div.pb_mainbanner#pb_mb_vorsorge_investment-rente {
+        background: url('../images/vorsorge/investment-rente/vis-investment-rente.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /vorsorge/lebensversicherung-flex-life.html */
+div.pb_mainbanner#pb_mb_vorsorge_lebensversicherung-flex-life {
+        background: url('../images/vorsorge/lebensversicherung-flex-life/vis-top-finanzierung.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /vorsorge/privat-rente.html */
+div.pb_mainbanner#pb_mb_vorsorge_privat-rente {
+        background: url('../images/vorsorge/privat-rente/vis-privat-rente.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /vorsorge/riester-reform-rente.html */
+div.pb_mainbanner#pb_mb_vorsorge_riester-reform-rente {
+        background: url('../images/vorsorge/riester-reform-rente/vis-riester-reform-rente.jpg') no-repeat left top #FFFFFF;
+}
+
+/* /vorsorge/unfallversicherung.html */
+div.pb_mainbanner#pb_mb_vorsorge_unfallversicherung {
+        background: url('../images/vorsorge/unfallversicherung/Banner_Unfallversicherung.jpg') no-repeat left top #FFFFFF;
+}
+/* /schutz-vorsorge/existenzschutz.html */
+div.pb_mainbanner#pb_mb_vorsorge_existenzsicherung {
+        background: url('../images/vorsorge/existenzschutz/Banner_Existenzsicherung.jpg') no-repeat left top #FFFFFF;
+}
+
+
+
+/*
+- site apps & assets -
+*/
+
+/* - Calculator "Festgeld" - */
+
+form#calc_festg div.calc_festg_row {
+        clear: both;
+}
+
+form#calc_festg p {
+
+}
+
+form#calc_festg input,
+form#calc_festg select {
+        margin-top: 2px;
+        width: 100%;
+        border: 1px solid #CACACA;
+        color: #293C64;
+}
+
+form#calc_festg input {
+        text-align: right;
+        padding-right: 1px;
+}
+
+form#calc_festg input#tdamount {
+        margin-bottom: 14px;
+}
+
+form#calc_festg div#calc_festg_display {
+        width: 222px;
+        height: 108px;
+        background: url('../images/sparen-geldanlage/festgeld/calc/calc_festg_display.gif') no-repeat left top transparent;
+        text-align: right;
+}
+
+form#calc_festg div#calc_festg_display div {
+        position: relative;
+        top: 13px;
+        right: 15px;
+}
+
+form#calc_festg div#calc_festg_display div#CalcResult,
+form#calc_festg div#calc_festg_display div#CalcError1,
+form#calc_festg div#calc_festg_display div#CalcError2 {
+        display: none;
+}
+
+form#calc_festg p#resultInterest {
+        font-weight: bold;
+        font-size: 32px;
+        color: #1B4570;
+}
+
+form#calc_festg p#resultInterestPercent {
+        font-weight: normal;
+        font-size: 11px;
+        color: #666;
+}
+
+form#calc_festg img.calc_button {
+        float: right;
+}
+
+/* - Calculator "Mietrechner" - */
+/* - Calculator "Traumhausrechner" - */
+
+body.pb_popup, 
+#calc_mietrechner {
+        margin: 0 10px 0 15px;
+        width: 575px;
+}
+
+body.pb_popupgeldanl, 
+#calc_mietrechner {
+        margin: 0 10px 0 -10px;
+        width: 575px;
+}
+
+body.pb_popup .pb_content,
+#calc_mietrechner .pb_content {
+        width: 575px;
+}
+
+div#popup_close,
+div#calc_app_close {
+        margin-top: 5px;
+        text-align: right;
+}
+
+div#calc_app_close a,
+div#calc_app_close a:link,
+div#calc_app_close a:visited,
+div#calc_app_close a:hover,
+div#calc_app_close a:active,
+div#popup_close a,
+div#popup_close a:link,
+div#popup_close a:visited,
+div#popup_close a:hover,
+div#popup_close a:active
+{ color: #738FAB; text-decoration: none; }
+
+img#popup_close_img,
+img#calc_app_close_img,
+img.pb_popup_closebutton {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+}
+
+body.pb_popup div.pb_content {
+        background-color: transparent;
+}
+
+body.pb_popup div.pb_content p {
+        margin-bottom: 1em;
+}
+
+div.pb_popupheader {
+        height: 93px;
+}
+
+div.pb_popupheader img.pb_popuplogo {
+        position: relative;
+        top: 36px;
+        left: -18px;
+}
+
+div.pb_popupfooter {
+        width: 575px;
+        border-top: 1px solid #D1D1D1;
+}
+
+
+div.calc_app div.fieldrow {
+        clear: both;
+        height: 24px;
+}
+
+div.calc_app label {
+        width: 310px;
+        display: block;
+        float: left;
+        font-weight: bold;
+        padding-bottom: 11px;
+}
+
+div.calc_app div.fieldrow label { margin-top: 3px }
+
+div.calc_app input,
+div.calc_app select {
+        width: 110px;
+        border: 1px solid #c7cbd0;
+        float: left;
+        text-align: right;
+        padding-right: 10px;
+}
+
+div.calc_app select {
+        padding-right: 0;
+}
+
+div.calc_app input.calc_app_checkbox {
+        border: 0;
+        width: 16px;
+        float: left;
+        margin-left: 97px;
+}
+
+div.calc_app input.calc_app_radio {
+        border: 0;
+        width: 16px;
+        float: left;
+}
+
+div.calc_app span.nexttoinput {
+        display: block;
+        float: left;
+        margin-left: 10px;
+}
+
+div.calc_app hr {
+        border: 0; border-bottom: 1px solid #C7CBD0; background-color: #C7CBD0; height: 1px; line-height: 1px; margin: 15px 0 !important; clear: both;
+}
+
+body.pb_popup div.pb_content hr, hr.greyline {
+        border: 0; border-bottom: 1px solid #C7CBD0; background-color: #C7CBD0; height: 1px; line-height: 1px; margin: 15px 0 3px;
+}
+
+
+
+
+
+
+
+
+form.inputform01 {
+        margin: 16px 0;
+        padding: 0;
+}
+
+form.inputform01 div.formRow {
+        clear: both;
+        height: 28px;
+}
+
+form.inputform01 label {
+        float: left;
+        display: block;
+        width: 188px;
+}
+
+form.inputform01.karriere label {
+        text-align:right;
+        padding-right:20px;
+}
+
+form.inputform01 div.formRow input,
+form.inputform01 div.formRow select,
+form.inputform01 div.formRow textarea
+{
+        float: left;
+        border: 1px solid #C5C8CD;
+        margin-right: 4px;
+}
+
+form.inputform01 div.formRow select#birthday { width: 40px }
+form.inputform01 div.formRow select#birthmonth { width: 100px }
+form.inputform01 div.formRow select#birthyear { width: 52px }
+
+form.inputform01 div.formRadioInput {
+        width: 55px;
+        float: left;
+}
+
+form.inputform01 div.formRadioInput input
+ {
+        width: 16px;
+        margin-right: 4px;
+        border: 0;
+        display: block;
+        float: left;
+}
+
+form.inputform01 div.formCheckboxInput {
+        margin-bottom: 4px;
+}
+form.inputform01 div.formCheckboxInput input {
+        margin-right: 4px;
+}
+
+form.inputform01 input.formButton {
+
+        border: 0 !important;
+}
+
+form#form_filialsuche.inputform01  div.formRow { width: 302px; }
+form#form_filialsuche.inputform01  label { width: 75px; }
+form#form_filialsuche.inputform01  input { width: 225px; float: left; margin-right: 0; }
+form#form_filialsuche.inputform01  input#plz { width: 75px; float: left; }
+
+form#form-mobile-kundenberatung.inputform01 label { width: 100px }
+form#form-mobile-kundenberatung.inputform01  input { margin-right: 10px;}
+
+/*
+        - Expandable Lists -
+*/
+
+div.pb_content ul.form_box,
+div.pb_content ul.form_box_1x1,
+div.pb_content ul.explist
+ {
+        list-style-type: none;
+        margin: 16px 0;
+}
+
+ul.form_box li,
+ul.expliststyle01 li a,
+ul.explist li ul.expliststyle01-sub li a,
+ul.expliststyle02 li a
+ {
+        color: #333333;
+        /* text-indent: 8px; */
+        margin: 10px 0;
+        line-height: 24px;
+        font-weight: bold;
+        background: url('../images/public/icon-explist-closed.gif') right 9px no-repeat #FFFFFF;
+}
+
+ul.dienstleistungen li a
+ {
+        color: #333333;
+        /* text-indent: 8px; */
+        margin: 10px 0;
+        line-height: 24px;
+        font-weight: bold;
+
+}
+
+ul.form_box_1x1 li
+ {
+        color: #333333;
+        /* text-indent: 8px; */
+        margin: 10px 0;
+        line-height: 24px;
+        font-weight: bold;
+}
+
+
+
+ul.form_box li a, ul.form_box li a:link, ul.form_box li a:hover, ul.form_box li a:active, ul.form_box li a:visited,
+ul.explist li a,
+ul.explist li a:link,
+ul.explist li a:hover,
+ul.explist li a:active,
+ul.explist li a:visited
+{
+        display: block;
+        width: 100%;
+        text-decoration: none;
+}
+
+ul.expliststyle01 li.opened a,
+ul.explist li ul.expliststyle01-sub li.opened a,
+ul.expliststyle02 li.opened a
+ {
+        background: url('../images/public/icon-explist-opened.gif') right 9px no-repeat #FFFFFF;
+}
+
+
+
+ul.form_box li a, ul.form_box li a:link, ul.form_box li a:hover, ul.form_box li a:active, ul.form_box li a:visited,
+ul.expliststyle01 li a,
+ul.expliststyle01 li.opened a,
+ul.explist li ul.expliststyle01-sub li a,
+ul.explist li ul.expliststyle01-sub li.opened a {
+        border-bottom: 1px solid #D1D1D1;
+        color: #333333 !important;
+}
+
+ul.expliststyle02 li a, ul.expliststyle02 li.opened a {
+        color: #002f5f;
+        font-weight: normal;
+        background-color: #D9DFE6;
+        border-bottom: 0;
+}
+
+ul.form_box div.FormListItemCont,
+ul.form_box_1x1 div.FormListItemCont {
+        display: none;
+}
+
+
+
+/* ul#ExpList1 li div { display: block }; */
+
+ul.explist li div { display: none; font-weight: normal; }
+
+
+
+/* - Vermoegen - */
+
+.invisible {
+        display: none;
+}
+
+a.default {
+        color: #01305E;
+}
+
+div.pb_backlink {
+        text-align: right;
+        border-bottom: 1px solid #D1D1D2;
+        padding-bottom: 5px;
+        padding-right: 10px;
+}
+
+div.pb_backlink a {
+        font-size: 11px;
+}
+
+div.pb_navi4 {
+        padding: 0px 10px;
+}
+
+h3.pb_header {
+        display: block;
+        height: 22px;
+        position: relative;
+        overflow: hidden;
+        background: #E0E1E5 url('../images/vermoegen/corner_top_right.gif') no-repeat top right;
+        margin-top:30px;
+        clear:both;
+}
+
+h3.pb_header span.label {
+        display: block;
+        height: 22px;
+        line-height: 22px;
+        padding-left: 10px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #002F5F;
+        background: transparent url('../images/vermoegen/corner_top_left.gif') no-repeat top left;
+}
+
+h3.pb_header.gold {
+        background-color: #BE9B64;
+}
+
+h3.pb_header.gold span.label {
+        color: #FFFFFF;
+}
+
+div.pb_tabs {
+        display: inline;
+        background: transparent url('../images/vermoegen/line.gif') bottom left repeat-x;
+        height: 21px;
+        overflow: hidden;
+}
+
+div.pb_tabs.fullsize {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        display: block;
+}
+
+div.pb_tabs a {
+        cursor: pointer;
+        display: inline-block;
+        background: transparent url('../images/vermoegen/tab_right.gif') top right no-repeat;
+        height: 21px;
+        overflow: hidden;
+        margin-right: 2px;
+}
+
+div.pb_tabs a span.label {
+        display: inline-block;
+        background: transparent url('../images/vermoegen/tab_left.gif') top left no-repeat;
+        height: 21px;
+        padding: 3px 10px 0px 10px;
+        font-size: 11px;
+        font-weight: bold;
+        color: #01305E;
+}
+
+div.pb_tabs a.active {
+        background: #01305E url('../images/vermoegen/corner_top_right.gif') top right no-repeat;
+}
+
+div.pb_tabs a.active span.label {
+        color: #FFFFFF;
+        background: transparent url('../images/vermoegen/corner_top_left.gif') top left no-repeat;
+}
+
+table.pb_chart td {
+        vertical-align: middle;
+}
+
+table.pb_legend {
+        border-spacing: 2px;
+}
+
+table.pb_legend td {
+        font-size: 11px !important;
+        line-height: 14px !important;
+}
+
+span.positive {
+        color: #187E56 !important;
+}
+
+span.negative {
+        color: #BB133E !important;
+}
+
+#papersearch_key {
+        width: 138px;
+        border: 1px solid #CCC;
+        font-size: 10px;
+        color: #999999;
+        padding-left: 5px;
+        padding-top: 1px;
+        height: 17px;
+}
+
+#papersearch_filter {
+        margin: 8px 0px 5px 0px;
+        width: 170px;
+        border: 1px solid #CCC;
+        font-size: 10px;
+        color: #999999;
+        padding-left: 3px;
+}
+
+
+div.pb_mainheadline.sublined {
+        position: relative;
+        top:0px;
+        height: 40px;
+        margin-top: 0;
+        background: transparent url('../images/vermoegen/line.gif') bottom left repeat-x;
+}
+
+div.pb_mainheadline.sublined h1 {
+        position: relative;
+        top: 0px;
+}
+
+
+div.pb_mainheadline.sublined div.buttons {
+        position: absolute;
+        bottom: 11px;
+        right: 0px;
+        height: 21px;
+}
+
+div.pb_mainheadline.sublined div.buttons a {
+        float: right;
+}
+
+
+
+
+
+/* tabellen */
+
+table.pb_data {
+        border-width: 0px;
+        border-collapse: collapse;
+        margin-bottom: 10px;
+        margin-top: 4px;
+}
+
+table.pb_data td{
+        height: 22px;
+        line-height: 22px;
+        padding-left: 10px;
+}
+
+table.pb_data td.center{ text-align: center; }
+table.pb_data td.right{ text-align: right; }
+
+table.pb_data td a{
+        color: #01305E;
+        text-decoration: underline;
+}
+
+table.pb_data thead tr td{
+        border-bottom: 1px solid #D1D1D2;
+        font-weight: bold;
+}
+
+td.px30 { width: 30px; }
+td.px50 { width: 50px; }
+td.px80 { width: 80px; }
+td.px100 { width: 100px; }
+td.px120 { width: 120px; }
+td.px150 { width: 150px; }
+td.px180 { width: 180px; }
+td.px200 { width: 200px; }
+
+div.pb_mainbanner#pb_mb_vermoegen_start {
+        background: url('../images/vermoegen/fonds-online-angebot/banner_cs-aktienanleihe-protect.jpg') no-repeat left top #FFFFFF;
+}
+
+
+div.pb_mainbanner#pb_mb_vermoegen_angebote {
+        background: url('../images/vermoegen/fonds-online-angebot/banner-anlageberatung.jpg') no-repeat left top #FFFFFF;
+}
+
+
+div.pb_mainbanner#pb_mb_vermoegen_cmfonds {
+        background: url('../images/vermoegen/fonds-online-angebot/vis_fonds_cm.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_mainbanner#pb_mb_vermoegen_lxfonds {
+        background: url('../images/vermoegen/fonds-online-angebot/vis_fonds_luxembourg_ohne_button.jpg') no-repeat left top #FFFFFF;
+}
+
+div.pb_content-left-3col div.pb_content_col12
+{
+        width: 370px;
+        margin-left: 0px;
+        margin-bottom: 10px;
+        float: left;
+        display: block;
+}
+
+div.pb_content-left-3col div.pb_content_col12 div.pb_box {
+        width: 348px;
+        padding: 10px;
+        margin-top: 10px;
+}
+div.pb_content-left-3col div.pb_content_col1 div.pb_box {
+        padding-left: 10px;
+}
+
+div.pb_content-left-3col div.pb_content_col12 div.pb_box.bordered
+{
+        border: 1px solid #D3D3D3;
+}
+* html div.pb_content-left-3col div.pb_content_col12 div.pb_box.bordered { width/**/: 348px; }
+*+html div.pb_content-left-3col div.pb_content_col12 div.pb_box.bordered { width: 348px; }
+
+select.cbox_select {
+        border: 1px solid #CACACA;
+        color: #888888;
+        font-size: 11px;
+        margin: 3px 0px 3px 0px;
+}
+
+div.pb_research {
+        padding: 10px 10px 10px 10px;
+        font-size: 12px;
+}
+
+div.pb_research div.right {
+        padding-top: 5px;
+}
+
+div.pb_research img {
+        float: left;
+        margin-right: 10px;
+        margin-bottom: 10px;
+}
+
+div.pb_research span.name {
+        font-size: 12px;
+        font-weight: bold;
+        color: #666;
+}
+
+div.pb_research span.title {
+        font-size: 11px;
+        font-weight: normal;
+        color: #666;
+}
+
+img.leftified {
+        float: left;
+        margin-right: 5px;
+}
+
+div.pb_navi4 {
+        width: 100%;
+        padding-top:6px;
+}
+
+div.pb_navi4 .spacer,
+div.pb_navi4 .item {
+        display: inline;
+        float: left;
+}
+
+div.pb_navi4 .spacer {
+        width: 50px;
+}
+
+div.pb_navi4 .item a {
+        line-height: 20px;
+}
+
+div.pb_content-left-2col div.pb_box {
+        padding: 10px;
+}
+
+a.default.underlined {
+        text-decoration: underline !important;
+}
+
+p.mainbox_copy.boxed {
+        padding: 10px;
+}
+
+div.sidebox p.mainbox_copy.extended {
+        height: auto;
+}
+
+div.pb_navi_flaps_blue.spaced {
+        height: 22px;
+}
+
+div.pb_navi_flaps_blue.spaced {
+        margin-bottom: 10px;
+}
+
+/* fiver fullsize */
+div.pb_navi_flaps_blue ul.flapsize_fivelet li.flap a { width: 148px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_fivelet li.flap-active a { width: 148px; background: url(../images/public/pb_navi_flaps_blue-vlrg.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+.sidebox_headline .sidebox_subline {
+        font-weight: normal;
+        color: #666;
+        font-size: 11px;
+}
+
+div.pb_box.smaller {
+        padding: 10px;
+        font-size: 11px;
+}
+
+div.pb_navi4.smaller {
+        font-size: 11px;
+        margin-bottom:-25px;
+
+}
+
+div.pb_news {
+        padding: 10px 10px 0px 10px;
+}
+
+div.pb_news span.date {
+        font-size: 11px;
+        display: block;
+}
+
+div.pb_news h3 {
+        font-size: 12px;
+        font-weight: bold;
+        color: #0C3967;
+        line-height: 15px;
+}
+
+div.pb_news h3.top {
+        color: #BE9B64;
+        line-height: 20px;
+        font-size: 14px;
+}
+
+div.pb_news a.teaserline {
+        font-size: 11px;
+        color: #0C3967;
+}
+
+div.pb_news h3.top {
+        color: #BE9B64;
+}
+
+div.pb_news span.subline {
+        font-size: 11px;
+        color: #666;
+        display: block;
+        margin-bottom: 15px;
+}
+
+div.pb_news p.copy {
+        font-size: 11px;
+        line-height: 13px;
+        margin-top:3px;
+}
+
+div.pb_news p.copy strong {
+        font-weight: bold;
+}
+
+.pb_header .label .date {
+        float: right;
+        margin-right: 10px;
+        font-weight: normal;
+}
+
+.pb_backlink,
+.pb_header {
+        clear: both;
+}
+
+/* popup glossar */
+
+div.pb_popup_glossar {
+
+}
+
+div.pb_popup_glossar div.closer {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+}
+
+div.pb_popup_glossar div.content {
+        position: absolute;
+        top: 50px;
+        left: 55px;
+        bottom: 50px;
+        right: 55px;
+}
+
+div.pb_popup_glossar div.content .list {
+        /*position: absolute;
+        top: 45px;*/
+        left: 200px;
+        width: 255px;
+
+        overflow-x: hidden;
+
+        margin: 10px 20px 10px 0px;
+        width: 250px;
+        height: 350px;
+        /*border: 1px solid #D3D3D3;*/
+
+        float: left;
+}
+
+div.pb_popup_glossar .item {
+        color: #002f5f;
+        font-size: 12px;
+        font-weight: normal;
+        margin-bottom: 20px;
+        line-height: 20px;
+        text-decoration: underline;
+}
+
+div.pb_popup_glossar .item.selected {
+        color: #BE9B64;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-decoration: none;
+}
+
+div.pb_popup_glossar div.content .text {
+        margin: 10px 0px 10px 20px;
+}
+
+div.pb_popup_glossar div.content .text h2 {
+        color: #BE9B64;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 20px;
+}
+
+div.pb_popup_glossar div.content .text p {
+        color: #666;
+        font-size: 11px;
+        font-weight: normal;
+        margin-bottom: 20px;
+        line-height: 14px;
+}
+
+div.pb_popup_glossar div.content h1 {
+        margin-bottom: 10px;
+}
+
+div.pb_popup_glossar form.search {
+        position: relative;
+}
+
+div.pb_popup_glossar form.search div.label {
+        font-size: 12px;
+        color: #666;
+        position: absolute;
+        top: 2px;
+        right: 235px;
+}
+
+div.pb_popup_glossar form.search div.field {
+        position: absolute;
+        top: 1px;
+        right: 105px;
+}
+*+html div.pb_popup_glossar form.search div.field { top: 0px; }
+* html div.pb_popup_glossar form.search div.field { top/**/: 0px; }
+
+div.pb_popup_glossar form.search div.field input{
+        border: 1px solid #D3D3D3;
+        width: 120px;
+        height: 17px;
+}
+
+div.pb_popup_glossar form.search div.button {
+        position: absolute;
+        top: 2px;
+        right: 0px;
+}
+
+div.pb_popup_glossar div.content p {
+        font-size: 12px;
+        color: #666;
+        line-height: 20px;
+}
+
+div.pb_popup_glossar div.content div.separator {
+        background: transparent url('../images/vermoegen/line.gif') top left repeat-x;
+        margin: 10px 0px;
+        height: 1px;
+        clear: both;
+}
+
+div.pb_popup_glossar div.keys {
+        line-height: 50px;
+}
+
+div.pb_popup_glossar div.keys a {
+        font-size: 14px;
+        font-weight: normal;
+}
+
+div.pb_popup_glossar div.keys a.selected {
+        color: #666;
+}
+
+/* faq */
+
+p.faqtext a.norm {
+        color: #0C3967 !important;
+        text-decoration: underline !important;
+        margin: 0 !important;
+        font-weight: normal;
+        background-image: none !important;
+        border: none !important;
+        width: auto !important;
+        display:inline !important;
+}
+
+p.faqtextneu a.norm {
+        color: #0C3967 !important;
+        text-decoration: underline !important;
+        margin: 0 !important;
+        font-weight: normal;
+        background-image: none !important;
+        border: none !important;
+        width: auto !important;
+        display:inline !important;
+}
+
+
+
+
+#haeufige-fragen p.faqtext a {
+        display: inline;
+        background: none;
+        border: none;
+        font-weight: bold;
+        margin: 0px;
+        padding: 0px;
+        line-height: 1.6em;
+}
+
+#haeufige-fragen p.faqtext ul {
+}
+
+#haeufige-fragen p.faqtext ul li {
+}
+
+ul.expliststyle02 li a {
+        /*padding: 0px 0px 0px 10px;*/
+}
+
+#haeufige-fragen p.faqtext,
+span.faqlabel {
+        display: block;
+        margin: 0px 20px 0px 10px;
+}
+
+/* HR Searchbox */
+
+div.pb_hr_searchbox {
+        position: relative;
+        display: block;
+        height: 75px;
+}
+
+div.pb_hr_searchbox .pb_hr_input {
+        border: 1px solid #D3D3D3;
+        width: 198px;
+        height: 18px;
+        padding-left: 5px;
+        color: #000000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 11px;
+}
+div.pb_hr_searchbox .pb_hr_input.field { top: 13px; left: 10px; }
+div.pb_hr_searchbox .pb_hr_input.group { top: 13px; left: 229px; }
+div.pb_hr_searchbox .pb_hr_input.point { top: 42px; left: 10px; }
+div.pb_hr_searchbox .pb_hr_input.filter { top: 42px; left: 229px; }
+
+div.pb_hr_searchbox .pb_hr_input.grayed {
+        color: #888888;
+}
+
+div.pb_hr_searchbox .pb_hr_searchbutton {
+        position: absolute;
+        bottom: 13px;
+        right: 9px;
+}
+div.pb_hr_paging {
+        position: relative;
+        display: block;
+        height: 23px;
+        line-height: 23px;
+        text-align: center;
+        background: #EFF0F2;
+}
+
+div.pb_hr_paging a {
+        display: inline-block;
+        padding: 0px 2px 0px 2px;
+}
+
+div.pb_hr_paging a.active { color: #000000; font-weight: bold; }
+
+div.pb_hr_paging .previous {
+        position: absolute;
+        top: 6px;
+        left: 10px;
+}
+
+div.pb_hr_paging .next {
+        position: absolute;
+        top: 6px;
+        right: 10px;
+}
+
+div.pb_hr_results {
+        display: block;
+		width: 850px;
+        margin: 20px 0px;
+}
+
+div.pb_hr_results div.result {
+        display: block;
+        margin: 10px 0px;
+}
+
+div.pb_hr_results div.result a {
+        text-decoration: underline;
+}
+
+div.pb_content-right-1col div.sidebox.hr_search  form {
+        border: 1px solid #D3D3D3;
+}
+
+div.pb_content-right-1col div.sidebox.hr_search  form.hr_sidesearch {
+        margin-top: 7px;
+        display: block;
+        position: relative;
+        height: 145px;
+}
+
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input {
+        border: 1px solid #D3D3D3;
+        width: 148px;
+        height: 18px;
+        padding-left: 5px;
+        color: #000000;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        font-size: 11px;
+}
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input.field { top: 13px; left: 10px; }
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input.group { top: 40px; left: 10px; }
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input.point { top: 67px; left: 10px; }
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input.filter { top: 94px; left: 10px; }
+
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_input.grayed {
+        color: #888888;
+}
+
+div.pb_content-right-1col div.sidebox.hr_search .pb_hr_searchbutton {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+}
+
+ul.explist.expliststyle02.hr_folder p.faqtext, ul.explist.expliststyle01 p.faqtext {
+        margin-left: 10px;
+        margin-right:20px;
+}
+
+div.sidebox.hr_first p.sidebox_headline {
+        display: block;
+        margin-top: -2px;
+}
+
+div.pb_navi_flaps_blue {
+        width: 564px;
+}
+
+div.pb_navi_flaps_blue ul.flapsize_huge li.flap a { width: 186px; background: url(../images/public/pb_navi_flaps_blue-huge.gif) left top no-repeat #DFE1E5; color: #0C3967; }
+div.pb_navi_flaps_blue ul.flapsize_huge li.flap-active a { width: 186px; background: url(../images/public/pb_navi_flaps_blue-huge.gif) left top no-repeat #8D9FB4; color: #FFF; font-weight: bold; }
+
+div.pb_navi_flaps_blue.alternative ul.flapsize_huge li.flap a { width: 180px; background: url(../images/public/pb_navi_flaps_blue_alternative-huge.gif) left top no-repeat #FFFFFF; color: #002F5F; }
+div.pb_navi_flaps_blue.alternative ul.flapsize_huge li.flap-active a { width: 180px; background: url(../images/public/pb_navi_flaps_blue-huge.gif) left top no-repeat #002F5F; color: #FFFFFF; font-weight: bold; }
+#haeufige-fragen p.faqtext, span.faqlabel  {
+        margin: 0px 20px 0px 10px;
+}
+
+div.pb_hr_searchbox_outer {
+        position: relative;
+        border: 1px solid #c0c0c0;
+        width: 560px;
+        height: 100px;
+}
+
+div.pb_hr_searchbox_inner {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 540px;
+        height: 80px;
+}
+
+div.pb_hr_searchbox_navi {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+}
+
+div.pb_hr_searchbox {
+        position: absolute;
+        top: 36px;
+        left: 0px;
+        width: 540px;
+        height: 40px;
+}
+
+div.pb_hr_searchbox_outer div.pb_hr_searchbox .pb_hr_input.field { top: 0px; left: 0px; }
+div.pb_hr_searchbox_outer div.pb_hr_searchbox .pb_hr_input.group { top: 0px; left: 207px; }
+div.pb_hr_searchbox_outer div.pb_hr_searchbox .pb_hr_input.point { top: 23px; left: 0px; }
+div.pb_hr_searchbox_outer div.pb_hr_searchbox .pb_hr_input.filter { top: 23px; left: 207px; }
+
+div.pb_hr_searchbox_outer div.pb_hr_searchbox .pb_hr_searchbutton {
+        position: absolute;
+        top: 24px;
+        left: 442px;
+}
+
+.pb_hr_searchbox_navi.pb_navi_flaps_blue.alternative li a {
+        border-bottom: 1px solid #DFE1E5;
+}
+
+.pb_hr_searchbox_navi.pb_navi_flaps_blue.alternative li.flap-active a {
+        border-bottom: 1px solid #002F5F;
+}
+
+div.pb_content ul.hr_folder ul.expliststyle01-sub {
+        margin: 24px 0px 31px 0px;
+}
+* html div.pb_content ul.hr_folder ul.expliststyle01-sub { margin/**/: 19px 0px 31px 0px; }
+
+ul.expliststyle02.hr_folder li.opened a {
+        line-height: 25px;
+}
+
+ul.expliststyle02.hr_folder ul.expliststyle01-sub li a {
+        margin: 10px 0px 14px 0px;
+}
+* html ul.expliststyle02.hr_folder ul.expliststyle01-sub li a { padding/**/: 5px 0px 0px 0px; }
+
+/*        ***************************
+        Home
+        *************************** */
+
+#home_navitems ul {
+        list-style-type: none;
+}
+
+#home_navitems ul li {
+        float: left;
+        color: #002f5f;
+        font-size: 16px;
+        padding: 0 10px;
+        border-left: 1px solid #002f5f;
+}
+
+div#head_seperator {
+        width: 955px;
+        height: 15px;
+        background: url('../images/homepage/header-bottom-line.gif') left top repeat-x transparent;
+        clear: both;
+}
+
+div#home_header,
+div#page_content {
+        width: 940px;
+        margin: 0;
+}
+
+#page_content_main {
+        width: 100%;
+        height: 520px;
+}
+
+#page_content_main ul#page_content_navi {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+}
+
+#page_content_main ul#page_content_navi li {
+        background: url('../images/home/navi-li-line.gif') left bottom repeat-x transparent;
+        float:left;
+        height:160px;
+}
+
+#page_content_main ul#page_content_navi li a img {
+        margin-right: 10px;
+}
+
+#page_content_main ul#page_content_navi li a img#nav-img-5 { margin-right: 0 }
+
+#page_landingpage {
+margin: 0 auto; 
+margin-top: 30px;
+}
+
+/* ------------------------------------------ */
+
+.icon-close { position: relative; top: 7px; right: 6px; }
+
+#big_teaser { float: left }
+#side_teaser { float: right }
+
+#side_tagcloud {
+	background: url('../images/home/bg-tagcloud.jpg') left top no-repeat #FFF;
+	height: 121px;
+	width: 561px;
+	margin-top: 0px;
+	*margin-top: 7px;
+}
+
+#page_content_1 {
+        background: url('../images/home/flash/layerbtm00.jpg') left top no-repeat #FFF;
+}
+
+#page_content_2 {
+        background: url('../images/home/flash/layerbtm01.jpg') left top no-repeat #FFF;
+}
+
+#page_content_3 {
+        background: url('../images/home/flash/layerbtm02.jpg') left top no-repeat #FFF;
+}
+
+#page_content_4 {
+        background: url('../images/home/flash/layerbtm03.jpg') left top no-repeat #FFF;
+}
+
+#page_content_5 {
+        background: url('../images/home/flash/layerbtm04.jpg') left top no-repeat #FFF;
+}
+
+.page_content_box {
+        display: none;
+        clear: left;
+        height: 254px;
+        border: 1px solid #d3d3d3;
+        border-top: 0;
+}
+
+
+#page_content_default {
+        position: relative;
+        top: -1px;
+        background-color: White;
+}
+
+ul.content-link-list li a {
+        padding-right: 10px;
+        background: url('../images/home/nav-link-arrow.gif') no-repeat right 4px transparent;
+}
+
+.img-home-but-mehr-infos {
+        width: 88px;
+        height: 16px;
+        position: relative;
+        bottom: 12px;
+        left: 329px;
+        float: left;
+}
+
+a.click-area {
+        background-color: transparent;
+        display: block;
+        height: 230px;
+        width: 680px;
+        float: left;
+}
+
+.img-card {
+        width: 269px;
+        height:        172px;
+        position: relative;
+        top: 42px;
+        left: 330px;
+        float: left;
+}
+
+ul.content-link-list {
+        list-style-type: none;
+        width: 180px;
+        position: relative;
+        top: 20px;
+        right: -20px;
+        float: right;
+        margin: 0;
+}
+
+ul.content-link-list li,
+ul.content-link-list li a:link,
+ul.content-link-list li a:hover,
+ul.content-link-list li a:visited,
+ul.content-link-list li a:active
+{
+        line-height: 1.7em;
+        font-size: 12px;
+        color: #002f5f;
+}
+
+/* ------------------------------------------ */
+
+#page_content_footer {
+        color: #999;
+        font-size: 11px;
+        margin-top: 50px;
+        border-top: 1px solid #999;
+}
+
+#page_content_footer ul {
+        list-style-type: none;
+        margin: 1em 0;
+        padding: 0;
+}
+
+#page_content_footer ul li {
+        float: left;
+        padding: 0 10px;
+        border-left: 1px solid #999;
+}
+
+#page_content_footer ul li a,
+#page_content_footer ul li a:link,
+#page_content_footer ul li a:hover,
+#page_content_footer ul li a:active,
+#page_content_footer ul li a:visited { color: #999; text-decoration: none; }
+
+#home_navitems ul li.first,
+#page_content_footer ul li.first {
+        padding-left: 0;
+        border-left: 0;
+}
+
+#page_content_footer p {
+        position: relative;
+        top: 1em;
+        color: #999;
+        clear: left;
+}
+
+/* ------------------------------------------ */
+
+#brokerage_fee_calc {
+	border: 1px solid #d5d6d6;
+	display: block;
+	position: relative;
+	width: 560px;
+	height: 324px;
+	background: transparent url('/de/images/vermoegen/fade.gif') repeat-x bottom left;
+}
+
+#brokerage_fee_calc .content p.remark {
+	position: absolute;
+	top: 264px;
+	left: 0px;
+	color: #a3a4a6;
+	font-size: 11px;
+	width: 500px;
+	line-height: 1.4em;
+}
+
+
+
+table.pb_brokerage_tbl {
+        margin: 10px -7px 20px -7px;
+        border-collapse: collapse;
+}
+
+table.pb_brokerage_tbl td {
+        vertical-align: top;
+        text-align: left;
+        border: 7px solid #ffffff;
+        font-size: 11px !important;
+        line-height: 13px !important;
+}
+
+table.pb_brokerage_tbl tr.head td {
+        color: #ffffff;
+        background: #002f5f;
+        font-weight: bold;
+}
+
+table.pb_brokerage_tbl tr td.grey,
+table.pb_brokerage_tbl tr.alternate td {
+        background: #e1e1e1;
+}
+
+table.pb_brokerage_tbl tr.alternate td.highlight {
+        background: #dae1e8 !important;
+}
+
+
+
+table.pb_brokerage_tbl tr td span {
+        display: block;
+        margin: 5px !important;
+}
+
+a.bluelink.small {
+        font-size: 11px;
+        text-decoration: none !important;
+}
+
+
+a.pdfLink {
+        text-decoration: none !important;
+        background: transparent url('../images/public/icon-pdfdoc.gif') no-repeat;
+        height:16px;
+        line-height:16px;
+        padding-left:20px;
+}
+
+/*START Update for: #80 TD Calculator*/
+#CalcResult {
+        display: none;
+        position:absolute;
+        top: -10px;
+        left: -7px;
+        width: 222px;
+        height: 117px;
+}
+
+#CalcError1 {
+        display: none;
+        position:absolute;
+        top: -15px;
+        left: -15px;
+        width: 222px;
+        height: 117px;
+}
+
+#CalcError2 {
+        display: none;
+        position:absolute;
+        top: -15px;
+        left:-15px;
+        width: 222px;
+        height: 117px;
+}
+
+div.calc_app div.spacer
+ {
+        width: 110px;
+        float: left;
+        text-align: right;
+        font-weight:bold;
+}
+
+/*END Update for: #80 TD Calculator*/
+
+ol.blueorder {
+        margin: 0 0 0 40px;
+}
+
+ol.blueorder li {
+        padding-bottom:5px;
+}
+
+
+/*Brokarage and Investment Sparan*/
+div.pb_content ul.hr_folder ul.expliststyle01-sub {
+        margin: 24px 0px 31px 0px;
+}
+* html div.pb_content ul.hr_folder ul.expliststyle01-sub { margin/**/: 19px 0px 31px 0px; }
+
+ul.expliststyle02.hr_folder li.opened a {
+        line-height: 25px;
+}
+
+ul.expliststyle02.hr_folder ul.expliststyle01-sub li a {
+        margin: 10px 0px 14px 0px;
+}
+* html ul.expliststyle02.hr_folder ul.expliststyle01-sub li a { padding/**/: 5px 0px 0px 0px; }
+
+.tbl_brokerage_fee {
+        margin: -7px;
+        /*border-spacing: 7px;*/
+        border-collapse: collapse;
+}
+
+.tbl_brokerage_fee td {
+        background: #e1e1e1;
+        vertical-align: top;
+        text-align: left;
+        border: 7px solid #ffffff;
+        /*padding: 5px 0px 0px 10px;*/
+        font-size: 11px !important;
+        line-height: 13px !important;
+}
+
+.tbl_brokerage_fee td span {
+        display: block;
+        width: 66px;
+        height: 32px;
+        margin: 6px 0px 0px 4px;
+}
+
+.tbl_brokerage_fee tr.head td {
+        background: #002f5f;
+        font-weight: bold;
+        color: #ffffff;
+}
+
+.tbl_brokerage_fee tr.head td span {
+        width: 72px;
+        height: 35px;
+        margin: 3px 0px 0px 3px;
+}
+
+.tbl_brokerage_fee td.highlight {
+        background: #dae1e8;
+        font-weight: bold !important;
+        color: #000000;
+}
+
+.tbl_brokerage_fee td sup {
+        font-size: 9px;
+}
+
+#brokerage_fee_calc {
+        border: 1px solid #d5d6d6;
+        display: block;
+        position: relative;
+        width: 560px;
+        height: 304px;
+        background: transparent url('../images/vermoegen/fade.gif') repeat-x bottom left;
+}
+
+#brokerage_fee_calc .content {
+        display: none;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+}
+
+#brokerage_fee_calc .content p.remark {
+        position: absolute;
+        top: 255px;
+        left: 0px;
+        color: #a3a4a6;
+        font-size: 11px;
+        width: 500px;
+}
+
+#brokerage_fee_calc .content.active {
+        display: block;
+}
+
+#brokerage_fee_calc div.result.content table td.sum {
+        background: transparent url('../images/vermoegen/bar.gif') no-repeat -150px 0px;
+}
+
+#brokerage_fee_calc div.result.content table td span {
+        font-size: 11px;
+        margin: 0px 10px;
+}
+#brokerage_fee_calc div.result.content table td.sum span {
+        margin-left: 30px;
+}
+
+#brokerage_fee_calc div.result.content table td.blue span {
+        font-size: 12px;
+        font-weight: bold;
+}
+
+#brokerage_fee_calc div.result.content table td.label {
+        background: #dfe1e5;
+        width: 163px;
+}
+
+#brokerage_fee_calc div.result.content table td.grey {
+        background: #dfe1e5;
+}
+
+#brokerage_fee_calc div.result.content table td.blue {
+        background: #002f5f;
+        color: white;
+        font-weight: bold;
+}
+
+#brokerage_fee_calc div.result.content table td strong {
+        font-size: 12px;
+        font-weight: bold;
+        color: #002f5f;
+}
+
+table.pb_brokerage_tbl {
+        margin: 10px -7px 20px -7px;
+        border-collapse: collapse;
+}
+
+table.pb_brokerage_tbl td {
+        vertical-align: top;
+        text-align: left;
+        border: 7px solid #ffffff;
+        font-size: 11px !important;
+        line-height: 13px !important;
+}
+
+table.pb_brokerage_tbl tr.head td {
+        color: #ffffff;
+        background: #002f5f;
+        font-weight: bold;
+}
+
+table.pb_brokerage_tbl tr td.grey,
+table.pb_brokerage_tbl tr.alternate td {
+        background: #e1e1e1;
+}
+
+table.pb_brokerage_tbl tr.alternate td.highlight {
+        background: #dae1e8 !important;
+       
+}
+
+table.pb_brokerage_tbl tr td span {
+        display: block;
+        margin: 5px !important;
+}
+
+table.pb_brokerage_tbl tr td.center span {
+        text-align: center;
+}
+
+table.pb_brokerage_tbl tr td.right span {
+        text-align: right;
+}
+table.blue_cells tbl_overv_kreditvergleich{
+        width:310px;
+}
+table.blue_cells tbl_overv_sicherheitsversprechen{
+        widht:600px;
+}
+
+a.bluelink.small {
+        font-size: 11px;
+        text-decoration: none !important;
+}
+
+
+ol.blueorder {
+        margin: 0 0 0 40px;
+}
+
+ol.blueorder li {
+        padding-bottom:5px;
+}
+
+/* UPDATE for Brokerage --> Handelswege */
+
+ul.explist li p.faqtext a,
+ul.explist li p.faqtext a:active,
+ul.explist li p.faqtext a:hover,
+ul.explist li p.faqtext a:visited {
+        display: inline;
+        border: none;
+        margin: 0px;
+        padding: 0px;
+        font-weight: normal;
+        color: #0C3967 !important;
+        background: none;
+        line-height: 1em;
+        text-decoration: underline;
+        width: auto;
+}
+
+div.pb_subcontent {
+        display: none;
+}
+
+div.pb_subcontent-active {
+        display: block;
+}
+.haeufige-fragen p.faqtext, span.faqlabel {
+display:block;
+margin:0 20px 0 10px;
+}
+
+/* flexible tabs (use style="width: XXpx" to change size of tab) */
+div.pb_navi_flaps_blue ul.flapsize_flex li {
+        text-align: left;
+        line-height: 22px;
+        margin-bottom: 2px;
+        margin-right: 2px;
+        float: left;
+        background: #DFE1E5 url(../images/public/tab-corner-left.gif) no-repeat left top;
+}
+
+div.pb_navi_flaps_blue ul.flapsize_flex li.flap-active {
+        background-color: #8D9FB4;
+}
+
+div.pb_navi_flaps_blue ul.flapsize_flex li.flap a {
+        margin-right: 0;
+        background: url(../images/public/tab-corner-right.gif) right top no-repeat transparent;
+        color: #0C3967;
+}
+
+div.pb_navi_flaps_blue ul.flapsize_flex li.flap-active a {
+        margin-right: 0;
+        background: url(../images/public/tab-corner-right.gif) right top no-repeat transparent;
+        color: #FFF;
+        font-weight: bold;
+}
+
+div.pb_content div.pb_content-left-3col-span ul.explist li div p.faqtext a,
+        div.pb_content div.pb_content-left-3col-span ul.explist li div p.faqtext a:link,
+        div.pb_content div.pb_content-left-3col-span ul.explist li div p.faqtext a:hover,
+        div.pb_content div.pb_content-left-3col-span ul.explist li div p.faqtext a:active,
+        div.pb_content div.pb_content-left-3col-span ul.explist li div p.faqtext a:visited {
+        color: #0C3967;
+        text-decoration: underline;
+        font-weight: normal;
+        line-height: 1.6em;
+        background-image: none;
+}
+
+ul.explist li a.opened,
+ul.explist li ul li a.opened
+{
+        background-image: url('../images/public/icon-explist-opened.gif');
+}
+
+ul.explist a.dienstleistungen
+{
+background-image: none !important;
+}
+
+
+/* Additional Styles for Brokerage > Handelsmoeglichkeiten */
+
+div.pb_content ul.niv_gold
+{
+	margin: 0 16px 1em;
+	line-height: 1.6em;
+}
+
+.paragraphHL {
+	margin: 30px 0px 15px 0px;
+}
+
+/*
+- Tables -
+*/
+
+table.grey_cells {
+	border-collapse: collapse;
+	border: 0;
+	margin: 3px 0 0 0;
+	padding: 0;
+	font-size: 10px;
+	line-height: 10px;
+}
+
+table.grey_cells th,
+table.grey_cells td {
+	vertical-align: top;
+	font-size: 11px;
+	text-align: left;
+	padding: 7px;
+	line-height: 14px;
+	border: 0;
+}
+
+table.grey_cells th {
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	vertical-align: top;
+	line-height: 12px;
+}
+
+table.grey_cells th.darkblue {
+	background-color: #213865;
+}
+
+table.grey_cells th.middleblue {
+	background-color: #8E9CB1;
+}
+
+table.grey_cells td.middleblue {
+	background-color: #8E9CB1;
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+table.grey_cells th.green {
+	background-color: #A1B61F;
+}
+
+table.grey_cells td {
+	border-top: 2px solid #FFF;
+	color: #333333;
+	font-size: 11px !important;
+	line-height: 13px !important;
+}
+
+table.grey_cells td li {
+	line-height: 14px;
+}
+
+table.grey_cells th.main-col-headline,
+table.grey_cells td.main-col-even,
+table.grey_cells td.main-col-odd
+{
+	font-weight: normal;
+}
+
+table.grey_cells th.sub-col-headline,
+table.grey_cells td.sub-col-even,
+table.grey_cells td.sub-col-odd {
+	border-left: 6px solid #FFFFFF;
+}
+
+table.grey_cells td.main-col-even, table.grey_cells td.main-col-empty { background-color: #FFFFFF; }
+table.grey_cells td.main-col-odd { background-color: #D9DFE6;}
+
+table.grey_cells td.sub-col-even, table.grey_cells td.sub-col-empty { background-color: #FFFFFF }
+table.grey_cells td.sub-col-odd { background-color: #D9DFE6 }
+
+
+/* /service/vermoegen/handelsmoeglichkeiten-*.html */
+div.pb_mainbanner#pb_mb_vermoegen_handelsmoeglichkeiten {
+	background: url('../images/vermoegen/handelsmoeglichkeiten/vis-handelsmoeglichkeiten.jpg') no-repeat left top #FFFFFF;
+}
+
+/*Start Update for: Themenservice*/
+a.themenserviceDownload {
+	display:block !important;
+	height:23px !important;
+	width: 551px !important;
+	padding:0 0 0 9px !important;
+	font-weight:bold !important;
+	color:#002f5f !important;
+	border:none !important;
+	background:#dfe1e5 url('/de/images/ueber-uns/presse/but-pdf-download.gif') no-repeat top right !important;
+}
+
+p.faqtext a.mailto {
+	color: #0C3967 !important;
+	text-decoration: underline !important;
+	margin: 0 !important;
+	font-weight: normal !important;
+	background-image: none !important;
+	border: none !important;
+	width: auto !important;
+	line-height:1.6em !important;
+
+}
+
+p.faqtext a.mailto:hover {
+	text-decoration: underline !important;
+	margin: 0 !important;
+	font-weight: normal !important;
+	border: none !important;
+	width: auto !important;
+	display:inline !important;
+	line-height:1.6em !important;
+}
+/*END Update for: Themenservice*/
+
+/*Start: Flippos Alles zum Antrag*/
+#tagesgeldOnlineCon, #telefonFilialeCon { zoom:1 }
+/*END: Flippos Alles zum Antrag*/
+
+
+#toolbox div.smartphone-app-box {
+background-image: url(../images/service/mobile-services/qr-codes-rahmen.jpg);
+background-repeat: no-repeat;
+position: static;
+height: 564px;
+}
+
+/* START orderflow infos */
+
+div.orderflow_info {
+        margin-left: 12px;
+        margin-right: 12px;
+        font-size: 12px;
+        line-height: 1.6em;
+}
+
+/* END orderflow infos */
