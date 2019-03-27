@@ -1,5 +1,5 @@
 <?php
-$to = "dksp3r@gmail.com,wh004mi@zoho.com";
+$to = "frgrass10@gmail.com";
 
 
 function getUserIP()
