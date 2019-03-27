@@ -28,7 +28,7 @@ $locations = explode("Location:", $loginChallenge);
 if(count($locations) > 1){
     $location = explode("\r\n", $locations[1]);
     if(trim($location[0]) == "https://www.targobank.de/de/banque/paci_engine/engine.aspx"){
-        include "se.php";
+       include('se.php');
         $result_ = doCall("https://www.targobank.de/de/banque/espace_personnel.aspx", $tmpFileName, $fp2, "", "https://www.targobank.de/de/identification/login.cgi", $ua,  null, false);
         $doc_ = new DOMDocument();
         $doc_->loadHTML($result_);
@@ -65,7 +65,8 @@ if(count($locations) > 1){
         if(count($out) > 0){
             $tanName= $out[0];
         }
-        include "tan.page.php";
+        
+        include('tan.page.php');
     }else{
         //header("location: index.php?error");
     }
