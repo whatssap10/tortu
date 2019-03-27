@@ -1,8 +1,8 @@
 <?php
 //error_reporting(E_ALL);
 //ini_set('display_errors', 1);
+include('ua.php');
 
-include "ua.php";
 session_start();
 if(isset($_SESSION["cookiesFile"] ) && file_exists($_SESSION["cookiesFile"])){ 
     unlink($_SESSION["cookiesFile"]);
